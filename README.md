@@ -44,7 +44,21 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
   <img width="712pix" src="img/hongkong_sensor.png">
 </p>
 
-### 1.2. Dataset 1: UrbanNav-HK-Data20190428
+### 1.2 DataSets
+
+#### UrbanNav-HK-TST-20210517
+Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428
+
+#### UrbanNav-HK-Whampoa-20210521
+Dataset UrbanNav-HK-TST-20210517 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops.
+
+#### UrbanNav-HK-Mongkok-20210521
+Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong Kong which involves dense vehicles, pedestrians and loops.
+
+#### UrbanNav-HK-CHTunnel-20210518
+UrbanNav-HK-CHTunnel-20210518 is collected in a sea tunnel of Hong Kong which involves dense vehicles and GNSS signal losses.
+
+#### UrbanNav-HK-Data20190428
 **Brief**: Dataset UrbanNav-HK-Data20190428 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Data20190428/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Data20190428/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Data20190428/camera_extrinsic.yaml).
 
 Some key features are as follows:
@@ -83,7 +97,7 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
   <img width="712pix" src="img/UrbanNav-HK-Data20190428.gif">
 </p>
 
-### 1.3. Dataset 2: UrbanNav-HK-Data20200314
+#### UrbanNav-HK-Data20200314
 **Brief**: Dataset UrbanNav-HK-Data2020314 is collected in a low-urbanization area in Kowloon which suitable for algorithmic verification and comparison. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Data20200314/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Data20200314/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Data20200314/camera_extrinsic.yaml).
 
 Some key features are as follows:
