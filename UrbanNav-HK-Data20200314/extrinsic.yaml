@@ -1,0 +1,33 @@
+%YAML:1.0
+
+# extrinsic parameters for Dataset UrbanNav-HK-Data20190428. Be noted that the body is fixed at the IMU frame
+
+################## Extrinsic parameter between IMU and Camera##################
+body_T_cam: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 9.9934608718980233e-01, -1.5715484428488590e-02,-3.2564114721728155e-02, -1.7434527332030676e-02,
+           3.2359037356803094e-02, -1.3131917124154624e-02,9.9939003669937865e-01, 1.7171139776467173e-01,
+           -1.6133527815482926e-02, -9.9979026615676858e-01,-1.2614792047622947e-02, -4.5251036141047592e-02, 
+           0., 0., 0., 1. ]
+
+################## Extrinsic parameter between IMU and LiDAR##################
+body_T_LiDAR: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 1, 0, 0, 0,
+           0, 1, 0, 0,
+           0, 0, 1, 0, 
+           0, 0, 0, 1]
+
+################## Extrinsic parameter between IMU and Grount Truth (SPAN-CPT)##################
+body_T_SPAN: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 1, 0, 0, 0,
+           0, 1, 0, 0,
+           0, 0, 1, 0, 
+           0, 0, 0, 1]
