@@ -50,7 +50,7 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428
 
 #### UrbanNav-HK-Whampoa-20210521
-Dataset UrbanNav-HK-TST-20210517 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops.
+Dataset UrbanNav-HK-Whampoa-20210521 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops.
 
 #### UrbanNav-HK-Mongkok-20210521
 Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong Kong which involves dense vehicles, pedestrians and loops.
