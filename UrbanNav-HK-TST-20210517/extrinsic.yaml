@@ -3,6 +3,7 @@
 # extrinsic parameters for Dataset UrbanNav-HK-TST-20210517. Be noted that the body is fixed at the IMU frame
 
 ################## Extrinsic parameter between IMU and Camera##################
+################## camera is ZED2, a stereo camera##################
 LEFT_CAMERA_T_IMU:!!opencv-matrix
  rows: 4
    cols: 4
