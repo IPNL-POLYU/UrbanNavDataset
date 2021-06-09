@@ -1,0 +1,31 @@
+LEFT_ZED2_CAMERA:
+model_type: PINHOLE
+camera_name: camera
+image_width: 672
+image_height: 376
+distortion_parameters:
+   k1: -0.0442856
+   k2: 0.0133574
+   p1: 0
+   p2: 0
+projection_parameters:
+   fx: 264.9425
+   fy: 264.79
+   cx: 334.3975
+   cy: 183.162
+
+ RIGHT_ZED2_CAMERA: 
+model_type: PINHOLE
+camera_name: camera
+image_width: 672
+image_height: 376
+distortion_parameters:
+   k1: -0.0423469
+   k2: 0.0115525
+   p1: 0
+   p2: 0
+projection_parameters:
+   fx: 264.2125
+   fy: 264.155
+   cx: 341.635
+   cy: 183.993
