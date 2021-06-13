@@ -48,24 +48,68 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 |                                |  Total Size |Path length |Sensors | Download  | 3D PointCloud |
 |--------------------------------|----------:|:-------:|:-------:|:-------:|:---------:|
 | UrbanNav-HK-TST-20210517       | 33.7 GB (785s) | xxxx | LiDARs/Stereo Camera/IMU/GNSS |[ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) |  | 
-| [SUrbanNav-HK-Whampoa-20210521 |  73.6 GB (1724s)   | xxxx | LiDARs/Stereo Camera/IMU/GNSS| [ROS](hhttps://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0)  |  |
+| [SUrbanNav-HK-Whampoa-20210521 |  73.6 GB (1724s)   | xxxx | LiDARs/Stereo Camera/IMU/GNSS| [ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0)  |  |
 | UrbanNav-HK-Mongkok-20210521   | 147 GB (3367s)  | xxxxx | LiDARs/Stereo Camera/IMU/GNSS | [ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) | N/A |
 | UrbanNav-HK-CHTunnel-20210518  | 17 GB (198s) | xxxx | LiDARs/Stereo Camera/IMU/GNSS  | [ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) | N/A | 
-| UrbanNav-HK-Data20190428 | 42.9 GB|2.01 Km | LiDAR/Mono Camera/IMU/GNSS |  [ROS](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0)， [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A|
+| UrbanNav-HK-Data20190428 | 42.9 GB|2.01 Km | LiDAR/Mono Camera/IMU/GNSS |  [ROS](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0)， [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A|
 | UrbanNav-HK-Data20200314 |27.0 GB | 1.21 Km | LiDAR/Mono Camera/IMU/GNSS  | [ROS](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0)， [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A |
 
 
 #### UrbanNav-HK-TST-20210517
 Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428
+- [UrbanNav-HK-TST-20210517](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0) (ROS)
+  - ROSBAG file which includes:
+    - 3D LiDAR point clouds: ```/velodyne_points```
+    - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
+    - Stereo Camera: ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
+    - IMU: ```/imu/data```
+    - SPAN-CPT after IE post-processing: ```/novatel_data/inspvax```
+    - Time Reference between latest NMEA and ROS time: ```/time_reference```
+- [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) (RINEX)
+  - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
+- [SPAN-CPT](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0)， Ground Truth, 1Hz 
 
 #### UrbanNav-HK-Whampoa-20210521
 Dataset UrbanNav-HK-Whampoa-20210521 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops.
+- [UrbanNav-HK-Whampoa-20210521](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0) (ROS)
+  - ROSBAG file which includes:
+    - 3D LiDAR point clouds: ```/velodyne_points```
+    - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
+    - Stereo Camera: ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
+    - IMU: ```/imu/data```
+    - SPAN-CPT after IE post-processing: ```/novatel_data/inspvax```
+    - Time Reference between latest NMEA and ROS time: ```/time_reference```
+- [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0) (RINEX)
+  - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
+- [SPAN-CPT](https://www.dropbox.com/s/ej2mkue2w3r36s2/UrbanNav_whampoa_raw.txt?dl=0)， Ground Truth, 1Hz 
 
 #### UrbanNav-HK-Mongkok-20210521
 Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong Kong which involves dense vehicles, pedestrians and loops.
+- [UrbanNav-HK-Mongkok-20210521](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0) (ROS)
+  - ROSBAG file which includes:
+    - 3D LiDAR point clouds: ```/velodyne_points```
+    - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
+    - Stereo Camera: ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
+    - IMU: ```/imu/data```
+    - SPAN-CPT after IE post-processing: ```/novatel_data/inspvax```
+    - Time Reference between latest NMEA and ROS time: ```/time_reference```
+- [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) (RINEX)
+  - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
+- [SPAN-CPT](https://www.dropbox.com/s/290pe8w8766788t/UrbanNav_mongkok_raw.txt?dl=0)， Ground Truth, 1Hz 
 
 #### UrbanNav-HK-CHTunnel-20210518
 UrbanNav-HK-CHTunnel-20210518 is collected in a sea tunnel of Hong Kong which involves dense vehicles and GNSS signal losses.
+- [UrbanNav-HK-CHTunnel-20210518](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0) (ROS)
+  - ROSBAG file which includes:
+    - 3D LiDAR point clouds: ```/velodyne_points```
+    - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
+    - Stereo Camera: ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
+    - IMU: ```/imu/data```
+    - SPAN-CPT after IE post-processing: ```/novatel_data/inspvax```
+    - Time Reference between latest NMEA and ROS time: ```/time_reference```
+- [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) (RINEX)
+  - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
+- [SPAN-CPT](https://www.dropbox.com/s/fqsviiei3r5tu6r/UrbanNav_tunnel_GT_raw.txt?dl=0)， Ground Truth, 1Hz 
 
 #### UrbanNav-HK-Data20190428
 **Brief**: Dataset UrbanNav-HK-Data20190428 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Data20190428/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Data20190428/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Data20190428/camera_extrinsic.yaml).
