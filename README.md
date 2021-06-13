@@ -52,7 +52,7 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 | UrbanNav-HK-Mongkok-20210521   | 147 GB (3367s)  | xxxxx | LiDARs/Stereo Camera/IMU/GNSS | [ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) | N/A |
 | UrbanNav-HK-CHTunnel-20210518  | 17 GB (198s) | xxxx | LiDARs/Stereo Camera/IMU/GNSS  | [ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) | N/A | 
 | UrbanNav-HK-Data20190428       | 42.9 GB  | 2.01 Km | LiDAR/Mono Camera/IMU/GNSS |  [ROS](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A|
-| UrbanNav-HK-Data20200314       |27.0 GB   | 1.21 Km | LiDAR/Mono Camera/IMU/GNSS  | [ROS](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0)， [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A |
+| UrbanNav-HK-Data20200314       |27.0 GB   | 1.21 Km | LiDAR/Mono Camera/IMU/GNSS  | [ROS](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A |
 
 
 #### UrbanNav-HK-TST-20210517
