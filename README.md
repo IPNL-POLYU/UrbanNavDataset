@@ -57,7 +57,7 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 
 #### UrbanNav-HK-TST-20210517
 Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428
-- [UrbanNav-HK-TST-20210517](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0) (ROS)
+- [UrbanNav-HK-TST-20210517](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0))
   - ROSBAG file which includes:
     - 3D LiDAR point clouds: ```/velodyne_points```
     - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
@@ -75,7 +75,7 @@ Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong 
 
 #### UrbanNav-HK-Whampoa-20210521
 Dataset UrbanNav-HK-Whampoa-20210521 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops.
-- [UrbanNav-HK-Whampoa-20210521](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0) (ROS)
+- [UrbanNav-HK-Whampoa-20210521](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0))
   - ROSBAG file which includes:
     - 3D LiDAR point clouds: ```/velodyne_points```
     - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
@@ -107,7 +107,7 @@ Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong 
 
 #### UrbanNav-HK-CHTunnel-20210518
 UrbanNav-HK-CHTunnel-20210518 is collected in a sea tunnel of Hong Kong which involves dense vehicles and GNSS signal losses.
-- [UrbanNav-HK-CHTunnel-20210518](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0) (ROS)
+- [UrbanNav-HK-CHTunnel-20210518](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/tcc4cfx2mgttsdc/4.tunnel_x5.mkv?dl=0))
   - ROSBAG file which includes:
     - 3D LiDAR point clouds: ```/velodyne_points```
     - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
