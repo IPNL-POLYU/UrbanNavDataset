@@ -59,12 +59,12 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428, two loops included.
 - [UrbanNav-HK-TST-20210517](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0))
   - ROSBAG file which includes:
-    - 3D LiDAR point clouds: ```/velodyne_points```
-    - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
-    - Stereo Camera: ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
-    - IMU: ```/imu/data```
-    - SPAN-CPT after IE post-processing: ```/novatel_data/inspvax```
-    - Time Reference between latest NMEA and ROS time: ```/time_reference```
+    - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
+    - Slant lidars ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/left/lslidar_point_cloud``` ```/right/velodyne_points``` 
+    - Stereo Camera ([sensor_msgs/Image](https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Image.html)): ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
+    - IMU: ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
+    - SPAN-CPT after IE post-processing ([novatel_msgs/INSPVAX](http://docs.ros.org/en/jade/api/novatel_msgs/html/msg/INSPVAX.html)): ```/novatel_data/inspvax```
+    - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
 - [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) (RINEX)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
 - [SPAN-CPT](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0)， Ground Truth, 1Hz 
@@ -77,12 +77,12 @@ Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong 
 Dataset UrbanNav-HK-Whampoa-20210521 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops.
 - [UrbanNav-HK-Whampoa-20210521](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0))
   - ROSBAG file which includes:
-    - 3D LiDAR point clouds: ```/velodyne_points```
-    - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
-    - Stereo Camera: ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
-    - IMU: ```/imu/data```
-    - SPAN-CPT after IE post-processing: ```/novatel_data/inspvax```
-    - Time Reference between latest NMEA and ROS time: ```/time_reference```
+    - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
+    - Slant lidars ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/left/lslidar_point_cloud``` ```/right/velodyne_points``` 
+    - Stereo Camera ([sensor_msgs/Image](https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Image.html)): ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
+    - IMU: ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
+    - SPAN-CPT after IE post-processing ([novatel_msgs/INSPVAX](http://docs.ros.org/en/jade/api/novatel_msgs/html/msg/INSPVAX.html)): ```/novatel_data/inspvax```
+    - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
 - [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0) (RINEX)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
 - [SPAN-CPT](https://www.dropbox.com/s/ej2mkue2w3r36s2/UrbanNav_whampoa_raw.txt?dl=0)， Ground Truth, 1Hz 
@@ -95,12 +95,11 @@ Dataset UrbanNav-HK-Whampoa-20210521 is collected in a highly urbanized area of 
 Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong Kong which involves dense vehicles, pedestrians and loops.
 - [UrbanNav-HK-Mongkok-20210521](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0) (ROS)
   - ROSBAG file which includes:
-    - 3D LiDAR point clouds: ```/velodyne_points```
-    - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
-    - Stereo Camera: ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
-    - IMU: ```/imu/data```
-    - SPAN-CPT after IE post-processing: ```/novatel_data/inspvax```
-    - Time Reference between latest NMEA and ROS time: ```/time_reference```
+    - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
+    - Slant lidars ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/left/lslidar_point_cloud``` ```/right/velodyne_points``` 
+    - Stereo Camera ([sensor_msgs/Image](https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Image.html)): ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
+    - IMU: ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
+    - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
 - [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) (RINEX)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
 - [SPAN-CPT](https://www.dropbox.com/s/290pe8w8766788t/UrbanNav_mongkok_raw.txt?dl=0)， Ground Truth, 1Hz 
@@ -109,12 +108,12 @@ Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong 
 UrbanNav-HK-CHTunnel-20210518 is collected in a sea tunnel of Hong Kong which involves dense vehicles and GNSS signal losses.
 - [UrbanNav-HK-CHTunnel-20210518](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/tcc4cfx2mgttsdc/4.tunnel_x5.mkv?dl=0))
   - ROSBAG file which includes:
-    - 3D LiDAR point clouds: ```/velodyne_points```
-    - Slant lidars: ```/left/lslidar_point_cloud``` ```/right/velodyne_points```
-    - Stereo Camera: ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
-    - IMU: ```/imu/data```
-    - SPAN-CPT after IE post-processing: ```/novatel_data/inspvax```
-    - Time Reference between latest NMEA and ROS time: ```/time_reference```
+    - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
+    - Slant lidars ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/left/lslidar_point_cloud``` ```/right/velodyne_points``` 
+    - Stereo Camera ([sensor_msgs/Image](https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Image.html)): ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
+    - IMU: ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
+    - SPAN-CPT after IE post-processing ([novatel_msgs/INSPVAX](http://docs.ros.org/en/jade/api/novatel_msgs/html/msg/INSPVAX.html)): ```/novatel_data/inspvax```
+    - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
 - [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) (RINEX)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
 - [SPAN-CPT](https://www.dropbox.com/s/fqsviiei3r5tu6r/UrbanNav_tunnel_GT_raw.txt?dl=0)， Ground Truth, 1Hz 
