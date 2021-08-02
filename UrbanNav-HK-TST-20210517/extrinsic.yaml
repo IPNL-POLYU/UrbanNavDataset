@@ -57,6 +57,18 @@ LEFT_LiDAR_T_CENTER_LiDAR: !!opencv-matrix
           -0.823812,  -0.0121725, 0.566732,   -0.200876,
           0,           0,           0,           1]
 
+################## Extrinsic parameter from GNSS antennas to IMU ##################
+# only translation part are measured manually (±0.1), y-axis forward, x-axis right and z-axis up
+ANTENNA_T_IMU: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 1, 0, 0, 0,
+           0, 1, 0, 0.86,
+           0, 0, 1, -0.31,
+           0, 0, 0, 1]
+
+
 
 ################## Extrinsic parameter between IMU and Grount Truth (SPAN-CPT)##################
 body_T_SPAN: !!opencv-matrix

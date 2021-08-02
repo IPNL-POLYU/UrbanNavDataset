@@ -3,8 +3,28 @@
 # extrinsic parameters for Dataset UrbanNav-HK-Mongkok-20210518. Be noted that the body is fixed at the IMU frame
 
 ################## Extrinsic parameter between IMU and Camera##################
+################## camera is ZED2, a stereo camera##################
+LEFT_CAMERA_T_IMU:!!opencv-matrix
+ rows: 4
+   cols: 4
+   dt: d
+   data:   [0.99958975976322017672, 0.017170804625958683,
+              -0.022923255549840760448, -0.0851835233537896739,
+               0.0231465893493554992, -0.01292276982900426,
+              0.99964855695461152696, 0.1257734831824673213,
+             0.016868538110887141801, -0.99976905607667321087,
+           -0.013314913952324877203, 0.075888549707280005484,0.0, 0.0, 0.0, 1.0]
 
-
+RIGHT_CAMERA_T_IMU:!!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data:   [ 9.9971618725690459e-01, 9.9454436695301657e-03,
+       -2.1647934930009227e-02, 2.1160626565556342e-01,
+       2.1740820070310918e-02, -9.3282535133940581e-03,
+       9.9972012104841623e-01, 1.5171555107814688e-01,
+       9.7407227241143209e-03, -9.9990703159674099e-01,
+       -9.5418281375148073e-03, -1.9140752384352994e-01, 0., 0., 0., 1. ]
 ################## Extrinsic parameter from Center Lidar to IMU##################
 CENTER_LiDAR_T_IMU: !!opencv-matrix
    rows: 4
@@ -36,6 +56,18 @@ LEFT_LiDAR_T_CENTER_LiDAR: !!opencv-matrix
           -0.0296934, 0.999323,   -0.0216991, -0.00124153,
           -0.823812,  -0.0121725, 0.566732,   -0.200876,
           0,           0,           0,           1]
+
+################## Extrinsic parameter from GNSS antennas to IMU ##################
+# only translation part are measured manually (±0.1), y-axis forward, x-axis right and z-axis up
+ANTENNA_T_IMU: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 1, 0, 0, 0,
+           0, 1, 0, 0.86,
+           0, 0, 1, -0.31,
+           0, 0, 0, 1]
+
 
 
 ################## Extrinsic parameter between IMU and Grount Truth (SPAN-CPT)##################

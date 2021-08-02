@@ -20,28 +20,33 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 - Raising the awareness of the urgent navigation requirement in highly-urbanized areas especially in Asian-Pacific regions.
 
-**Contact Authors (corresponding to issues and maintenance of the currently available dataset)**: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Feng Huang](https://www.polyu-ipn-lab.com/),[Li-ta Hsu](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
+**Contact Authors (corresponding to issues and maintenance of the currently available dataset)**: [Li-ta Hsu](https://www.polyu-ipn-lab.com/), [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Feng Huang](https://www.polyu-ipn-lab.com/), [Hoi-Fung Ng](https://www.polyu-ipn-lab.com/), [GuoHao Zhang](https://www.polyu-ipn-lab.com/), [Xiwei Bai](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
 
 **Related Papers:** 
   - Wen, Weisong, Xiwei Bai, Li-Ta Hsu, and Tim Pfeifer. "GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in Urban Scenarios: An Approach Robust to Non-Gaussian Noise." In 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS), pp. 647-654. IEEE, 2020.
+  - Zhang, Jiachen, Weisong Wen, Feng Huang, Xiaodong Chen, and Li-Ta Hsu. 2021. "Coarse-to-Fine Loosely-Coupled LiDAR-Inertial Odometry for Urban Positioning and Mapping" Remote Sensing 13, no. 12: 2371. https://doi.org/10.3390/rs13122371
+  - Huang, Feng, Weisong Wen, Jiachen Zhang and L. Hsu. “Point wise or Feature wise? Benchmark Comparison of Public Available LiDAR Odometry Algorithms in Urban Canyons.” IEEE Intelligent Transportation Systems Magazine (accepted), 2021.
 
 *if you use GraphGNSSLib for your academic research, please cite our related [papers](https://www.polyu-ipn-lab.com/)*
 
 **Work related to urbanNav Dataset :** 
   - Li, Tao, Ling Pei, Yan Xiang, Qi Wu, Songpengcheng Xia, Lihao Tao, and Wenxian Yu. "P3-LOAM: PPP/LiDAR Loosely Coupled SLAM with Accurate Covariance Estimation and Robust RAIM in Urban Canyon Environment." IEEE Sensors Journal (2020). [paper](https://arxiv.org/pdf/2012.02399.pdf)
   - Chen, Chao, and Guobin Chang. "PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations." GPS Solutions 25, no. 1 (2020): 1-7. [PPPLib Code](https://github.com/heiwa0519/PPPLib), [paper](https://link.springer.com/article/10.1007/s10291-020-01052-4)
+  - Li, Kailai, Meng Li, and Uwe D. Hanebeck. "Towards high-performance solid-state-lidar-inertial odometry and mapping." IEEE Robotics and Automation Letters 6.3 (2021): 5167-5174.
 
 ## 1. Hong Kong Dataset
 ### 1.1 **Sensor Setups**
 The platform for data collection in Hong Kong is a Honda Fit. The platform is equipped with the following sensors:
-  - 3D LiDAR sensor ([HDL 32E Velodyne](https://velodynelidar.com/products/hdl-32e/)): (360 HFOV, +10~-30 VFOV, 80m range, 10Hz) 
-  - IMU ([Xsens Mti 10](https://www.xsens.com/products/mti-10-series), 100 Hz, AHRS)
-  - GNSS receiver: u-blox M8T or u-blox F9P (**to be updated**)  
-  - camera:(1920X1200,79.4°X96.8°, 10Hz) 
+  - 3D LiDAR sensor: ([HDL 32E Velodyne](https://velodynelidar.com/products/hdl-32e/)): (360 HFOV, +10~-30 VFOV, 80m range, 10Hz)，
+  - Slant lidars: [VLP16 Velodyne](https://velodynelidar.com/products/puck/), [Lslidar C16](http://wiki.ros.org/lslidar_c16)
+  - IMU ([Xsens Mti 10](https://www.xsens.com/products/mti-10-series), 400 Hz, AHRS)
+  - GNSS receivers(x3): u-blox ZED-F9P(x2), EVK-M8T(x1)(1 Hz)
+  - NovAtel Flexpak6 (1 Hz)
+  - Camera: [ZED2](https://www.stereolabs.com/zed-2/) Stereo (15 Hz)
   - [SPAN-CPT](https://www.novatel.com/products/span-gnss-inertial-systems/span-combined-systems/span-cpt/):(RTK GNSS/INS, RMSE: 5cm, 1Hz) 
 
 <p align="center">
-  <img width="712pix" src="img/hongkong_sensor.png">
+  <img width="712pix" src="img/hongkong_sensor2.png">
 </p>
 
 ### 1.2 DataSets
@@ -56,7 +61,7 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 
 
 #### UrbanNav-HK-TST-20210517
-Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428, two loops included.
+Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428, two loops included. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-TST-20210517/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-TST-20210517/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-TST-20210517/zed2_intrinsics.yaml).
 - [UrbanNav-HK-TST-20210517](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0))
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -74,7 +79,7 @@ Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong 
 </p>
 
 #### UrbanNav-HK-Whampoa-20210521
-Dataset UrbanNav-HK-Whampoa-20210521 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops.
+Dataset UrbanNav-HK-Whampoa-20210521 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Whampoa-20210521/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Whampoa-20210521/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Whampoa-20210521/zed2_intrinsics.yaml).
 - [UrbanNav-HK-Whampoa-20210521](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0))
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -92,7 +97,7 @@ Dataset UrbanNav-HK-Whampoa-20210521 is collected in a highly urbanized area of 
 </p>
 
 #### UrbanNav-HK-Mongkok-20210521
-Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong Kong which involves dense vehicles, pedestrians and loops.
+Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong Kong which involves dense vehicles, pedestrians and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Mongkok-20210521/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Mongkok-20210521/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Mongkok-20210521/zed2_intrinsics.yaml).
 - [UrbanNav-HK-Mongkok-20210521](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0) (ROS)
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -102,10 +107,10 @@ Dataset HK-Mongkok-20210521 is collected in an ultra-dense urban canyon of Hong 
     - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
 - [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) (RINEX)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
-- [SPAN-CPT](https://www.dropbox.com/s/290pe8w8766788t/UrbanNav_mongkok_raw.txt?dl=0)， Ground Truth, 1Hz 
+- [SPAN-CPT](https://www.dropbox.com/s/yaexvwppb6k3szp/UrbanNav_mongkok_GT_part_raw.txt?dl=0)， Ground Truth, 1Hz 
 
 #### UrbanNav-HK-CHTunnel-20210518
-UrbanNav-HK-CHTunnel-20210518 is collected in a sea tunnel of Hong Kong which involves dense vehicles and GNSS signal losses.
+UrbanNav-HK-CHTunnel-20210518 is collected in a sea tunnel of Hong Kong which involves dense vehicles and GNSS signal losses. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-CHTunnel-20210518/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-CHTunnel-20210518/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-CHTunnel-20210518/zed2_intrinsics.yaml).
 - [UrbanNav-HK-CHTunnel-20210518](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/tcc4cfx2mgttsdc/4.tunnel_x5.mkv?dl=0))
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -237,7 +242,7 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
 
 
 ## 3. Acknowledgements
-We acknowledge the help from Guohao Zhang, Yin-chiu Kan Weichang Xu and Song Yang for data collection.
+We acknowledge the help from Yihan Zhong, Jiachen Zhang, Yin-chiu Kan Weichang Xu and Song Yang.
 
 ## 4. License
 For any technical issues, please contact [Weisong Wen](https://weisongwen.wixsite.com/weisongwen) via email <17902061r@connect.polyu.hk>. For commercial inquiries, please contact [Li-ta Hsu](https://www.polyu-ipn-lab.com/) via email <lt.hsu@polyu.edu.hk>.
