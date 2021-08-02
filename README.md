@@ -16,9 +16,13 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 ## Objective of the Dataset:
 
-- Benchmarking different positioning algorithms using the open-sourced dataset.
+- Open-sourcing positioning sensor data, including GNSS, INS, LiDAR and cameras collected in Asian urban canyons;
 
-- Raising the awareness of the urgent navigation requirement in highly-urbanized areas especially in Asian-Pacific regions.
+- Raising the awareness of the urgent navigation requirement in highly-urbanized areas, especially in Asian-Pacific regions;
+
+- Providing an integrated online platform for data sharing to facilitate the development of navigation solutions of the research community; and 
+
+- Benchmarking positioning algorithms based on the open-sourcing data.
 
 **Contact Authors (corresponding to issues and maintenance of the currently available dataset)**: [Li-ta Hsu](https://www.polyu-ipn-lab.com/), [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Feng Huang](https://www.polyu-ipn-lab.com/), [Hoi-Fung Ng](https://www.polyu-ipn-lab.com/), [GuoHao Zhang](https://www.polyu-ipn-lab.com/), [Xiwei Bai](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
 
