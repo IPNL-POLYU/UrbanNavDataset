@@ -2,7 +2,7 @@
 ## GNSS 
 Data preparation
 - Download the RINEX observation &lt;Date&gt;\.&lt;scenario&gt;\.&lt;place&gt;\.&lt;receiver&gt;\.obs
-- Download the Ephemeris data, e.g. SatRef from Hong Kong Lands Department
+- Download the Ephemeris data, e.g. [SatRef](https://www.geodetic.gov.hk/en/rinex/downv.aspx) from Hong Kong Lands Department 
 
 ![Data preparation](img/gnss_1.png)
 
