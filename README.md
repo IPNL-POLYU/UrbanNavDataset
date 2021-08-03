@@ -249,10 +249,15 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
 ## 3. Acknowledgements
 We acknowledge the help from Yihan Zhong, Jiachen Zhang, Yin-chiu Kan Weichang Xu and Song Yang.
 
-## 4. License
+## 4. Example usage
+
+Refer to [Example_usage](tools/data_usage/readme.md)
+
+
+## 5. License
 For any technical issues, please contact [Weisong Wen](https://weisongwen.wixsite.com/weisongwen) via email <17902061r@connect.polyu.hk>. For commercial inquiries, please contact [Li-ta Hsu](https://www.polyu-ipn-lab.com/) via email <lt.hsu@polyu.edu.hk>.
 
-## 5. Related Publication
+## 6. Related Publication
 
 1. Wen, Weisong, Guohao Zhang, and Li-Ta Hsu. "Exclusion of GNSS NLOS receptions caused by dynamic objects in heavy traffic urban scenarios using real-time 3D point cloud: An approach without 3D maps." Position, Location and Navigation Symposium (PLANS), 2018 IEEE/ION. IEEE, 2018. 
 
