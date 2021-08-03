@@ -1,6 +1,4 @@
 # Data Usage
-Example of using the data
-
 ## GNSS 
 Data preparation
 - Download the RINEX observation &lt;Date&gt;\.&lt;scenario&gt;\.&lt;place&gt;\.&lt;receiver&gt;\.obs
