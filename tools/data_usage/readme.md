@@ -7,7 +7,7 @@ Data preparation
 ![Data preparation](img/gnss_1.png)
 
 Using GNSS library for post-processing and evaluation
-- Opensource GNSS evaluation tools: GUI, C++: RTKLIBb MATLAB: goGPS
+- Opensource GNSS evaluation tools: GUI, C++: RTKLIB, MATLAB: goGPS
 
 ![Processing](img/gnss_2.png)
 
