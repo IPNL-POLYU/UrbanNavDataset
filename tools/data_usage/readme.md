@@ -7,7 +7,7 @@ Data preparation
 ![Data preparation](img/gnss_1.png)
 
 Using GNSS library for post-processing and evaluation
-- Opensource GNSS evaluation tools: GUI, C++: RTKLIB, MATLAB: goGPS
+- Opensource GNSS evaluation tools: GUI, C++: [RTKLIB](http://www.rtklib.com/), MATLAB: [goGPS](https://github.com/goGPS-Project/goGPS_MATLAB)
 
 ![Processing](img/gnss_2.png)
 
@@ -27,7 +27,7 @@ rosbag play DATASET.bag
 ## LiDAR Inertial Odometry
 - Take scenario (a) as an example
 Download the rosbag [UrbanNav-HK-TST-20210517](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0)
-- Prepared the [fine-tune LIO-SAM](https://www.dropbox.com/s/g514ra8zm6nfz9r/LIO-SAM_for_urban.zip?dl=0) base on the intrinsic and extrinsic. 
+- Prepared the [fine-tune LIO-SAM](https://www.dropbox.com/s/g514ra8zm6nfz9r/LIO-SAM_for_urban.zip?dl=0) based on the intrinsic and extrinsic. The origianl LIO-SAM can be found at [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
 ```
 roslaunch lio_sam run_velodyne.launch
 ```
