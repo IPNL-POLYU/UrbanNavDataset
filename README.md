@@ -28,7 +28,7 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 **Related Papers:** 
   - Hsu, L.-T.; Kubo, N.; Chen, W.; Liu, Z.; Suzuki, T.; Meguro, J. UrbanNav:An open-sourced multisensory dataset for benchmarking positioning algorithms designed for urban areas (Accepted). In Proceedings of the ION GNSS+ 2021, St. Louis, MO, USA, 20–24 September 2021.
-  - Wen, Weisong, Xiwei Bai, Li-Ta Hsu, and Tim Pfeifer. "GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in Urban Scenarios: An Approach Robust to Non-Gaussian Noise." In 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS), pp. 647-654. IEEE, 2020.
+  - Wen, Weisong, Xiwei Bai, Li-Ta Hsu, and Tim Pfeifer. "GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in Urban Scenarios: An Approach Robust to Non-Gaussian Noise." In 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS), pp. 647-654. IEEE, 2020. https://doi.org/10.1109/PLANS46316.2020.9110157
   - Zhang, Jiachen, Weisong Wen, Feng Huang, Xiaodong Chen, and Li-Ta Hsu. 2021. "Coarse-to-Fine Loosely-Coupled LiDAR-Inertial Odometry for Urban Positioning and Mapping" Remote Sensing 13, no. 12: 2371. https://doi.org/10.3390/rs13122371
   - Huang, Feng, Weisong Wen, Jiachen Zhang and L. Hsu. “Point wise or Feature wise? Benchmark Comparison of Public Available LiDAR Odometry Algorithms in Urban Canyons.” IEEE Intelligent Transportation Systems Magazine (accepted), 2021.
 
@@ -61,8 +61,8 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 | [UrbanNav-HK-Deep-Urban-1](#urbannav-hk-whampoa-20210521)   | 63.9 GB (1536s) | 4.51 Km | LiDARs/Stereo Camera/IMU/GNSS| Deep |[ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0)  | [Whampoa map](http://13.250.107.205/examples/urbannav/whampoa/) |
 | [UrbanNav-HK-Harsh-Urban-1](#urbannav-hk-mongkok-20210518)   | 147 GB (3367s)  | 4.86 Km | LiDARs/Stereo Camera/IMU/GNSS | Harsh |[ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) | [Mongkok map](http://13.250.107.205/examples/urbannav/mongkok/) |
 | [UrbanNav-HK-Tunnel-1](#urbannav-hk-chtunnel-20210518)  | 17 GB (398s)    | 3.15 Km | LiDARs/Stereo Camera/IMU/GNSS  | N/A |[ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) | [Tunnel map](http://13.250.107.205/examples/urbannav/tunnel/) | 
-| [UrbanNav-HK-Data20190428](#urbannav-hk-data20190428)            | 42.9 GB (487s)  | 2.01 Km | LiDAR/Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A|
-| [UrbanNav-HK-Data20200314](#urbannav-hk-data20200314)             |27.0 GB (300s)  | 1.21 Km | LiDAR/Camera/IMU/GNSS  | Light |[ROS](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A |
+| [(Pilot data) UrbanNav-HK-Data20190428](#urbannav-hk-data20190428)            | 42.9 GB (487s)  | 2.01 Km | LiDAR/Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A|
+| [(Pilot data) UrbanNav-HK-Data20200314](#urbannav-hk-data20200314)             |27.0 GB (300s)  | 1.21 Km | LiDAR/Camera/IMU/GNSS  | Light |[ROS](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A |
 
 
 #### UrbanNav-HK-TST-20210517
