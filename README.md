@@ -55,8 +55,8 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 </p>
 
 ### 1.2 DataSets
-|                                |  Total Size |Path length | Sensors |Urban Canyon | Download  | 3D PointCloud |
-|--------------------------------|----------:|:-------:|:-------:|:-------:|:-------:|:---------:|
+|                                    |  Total Size |Path length | Sensors |Urban Canyon | Download  | 3D PointCloud |
+|------------------------------------|----------:|:-------:|:-------:|:-------:|:-------:|:---------:|
 | [UrbanNav-HK-Medium-Urban-1](#urbannav-hk-tst-20210517)        | 33.7 GB (785s)  | 3.64 Km | LiDARs/Stereo Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) | [TST map](http://13.250.107.205/examples/urbannav/tst/) | 
 | [UrbanNav-HK-Deep-Urban-1](#urbannav-hk-whampoa-20210521)   | 63.9 GB (1536s) | 4.51 Km | LiDARs/Stereo Camera/IMU/GNSS| Deep |[ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0)  | [Whampoa map](http://13.250.107.205/examples/urbannav/whampoa/) |
 | [UrbanNav-HK-Harsh-Urban-1](#urbannav-hk-mongkok-20210518)   | 147 GB (3367s)  | 4.86 Km | LiDARs/Stereo Camera/IMU/GNSS | Harsh |[ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) | [Mongkok map](http://13.250.107.205/examples/urbannav/mongkok/) |
