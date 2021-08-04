@@ -11,7 +11,7 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 **Important Notes**: 
   - **About access to GNSS RINEX file**: The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We will recently open-source a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as customized ROS message. Meanwhile, we [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provide the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO). If you wish to use the GraphGNSSLib, keep an eye on the update of this repo.
-  - **Dataset contribution**: Researches who wish to contribute their dataset as part of the UrbanNav dataset, please feel free to contact me via email <17902061r@connect.polyu.hk>. We wish the UrbanNav can be a platform for navigation solution development, validation and sharing.
+  - **Dataset contribution**: Researches who wish to contribute their dataset as part of the UrbanNav dataset, please feel free to contact me via email <darren-f.huang@connect.polyu.hk>, <welson.wen@polyu.edu.hk>, and <lt.hsu@polyu.edu.hk>. We wish the UrbanNav can be a platform for navigation solution development, validation and sharing.
   - **Algorithm validation and contribution**: Researches are welcomed to share their navigation solution results, source code to the UrbanNav dataset after a code review process, e,g, code for GNSS/INS integration or LiDAR SLAM, etc. 
 
 ## Objective of the Dataset:
@@ -24,17 +24,17 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 - Benchmarking positioning algorithms based on the open-sourcing data.
 
-**Contact Authors (corresponding to issues and maintenance of the currently available dataset)**: [Li-ta Hsu](https://www.polyu-ipn-lab.com/), [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Feng Huang](https://www.polyu-ipn-lab.com/), [Hoi-Fung Ng](https://www.polyu-ipn-lab.com/), [GuoHao Zhang](https://www.polyu-ipn-lab.com/), [Xiwei Bai](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
+**Contact Authors (corresponding to issues and maintenance of the currently available Hong Kong dataset)**: [Li-Ta Hsu](https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/), [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-weisong-wen/), [Feng Huang](https://www.polyu-ipn-lab.com/people), [Hoi-Fung Ng](https://www.polyu-ipn-lab.com/people), [GuoHao Zhang](https://www.polyu-ipn-lab.com/people), [Xiwei Bai](https://www.polyu-ipn-lab.com/people) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
 
 **Related Papers:** 
-  - Hsu, L.-T.; Kubo, N.; Chen, W.; Liu, Z.; Suzuki, T.; Meguro, J. UrbanNav:An open-sourced multisensory dataset for benchmarking positioning algorithms designed for urban areas (Accepted). In Proceedings of the ION GNSS+ 2021, Miami, FL, USA, 20–24 September 2021.
+  - Hsu, L.-T.; Kubo, N.; Chen, W.; Liu, Z.; Suzuki, T.; Meguro, J. UrbanNav:An open-sourced multisensory dataset for benchmarking positioning algorithms designed for urban areas (Accepted). In Proceedings of the ION GNSS+ 2021, St. Louis, MO, USA, 20–24 September 2021.
   - Wen, Weisong, Xiwei Bai, Li-Ta Hsu, and Tim Pfeifer. "GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in Urban Scenarios: An Approach Robust to Non-Gaussian Noise." In 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS), pp. 647-654. IEEE, 2020.
   - Zhang, Jiachen, Weisong Wen, Feng Huang, Xiaodong Chen, and Li-Ta Hsu. 2021. "Coarse-to-Fine Loosely-Coupled LiDAR-Inertial Odometry for Urban Positioning and Mapping" Remote Sensing 13, no. 12: 2371. https://doi.org/10.3390/rs13122371
   - Huang, Feng, Weisong Wen, Jiachen Zhang and L. Hsu. “Point wise or Feature wise? Benchmark Comparison of Public Available LiDAR Odometry Algorithms in Urban Canyons.” IEEE Intelligent Transportation Systems Magazine (accepted), 2021.
 
-*if you use GraphGNSSLib for your academic research, please cite our related [papers](https://www.polyu-ipn-lab.com/)*
+*if you use GraphGNSSLib for your academic research, please cite our related [codes](https://github.com/weisongwen/GraphGNSSLib) and [paper](https://arxiv.org/abs/2106.01594)*
 
-**Work related to urbanNav Dataset :** 
+**Work related to urbanNav Dataset: (please emails to <welson.wen@polyu.edu.hk> if you used this dataset and publish papers based on it.)** 
   - Li, Tao, Ling Pei, Yan Xiang, Qi Wu, Songpengcheng Xia, Lihao Tao, and Wenxian Yu. "P3-LOAM: PPP/LiDAR Loosely Coupled SLAM with Accurate Covariance Estimation and Robust RAIM in Urban Canyon Environment." IEEE Sensors Journal (2020). [paper](https://arxiv.org/pdf/2012.02399.pdf)
   - Chen, Chao, and Guobin Chang. "PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations." GPS Solutions 25, no. 1 (2020): 1-7. [PPPLib Code](https://github.com/heiwa0519/PPPLib), [paper](https://link.springer.com/article/10.1007/s10291-020-01052-4)
   - Li, Kailai, Meng Li, and Uwe D. Hanebeck. "Towards high-performance solid-state-lidar-inertial odometry and mapping." IEEE Robotics and Automation Letters 6.3 (2021): 5167-5174.
@@ -55,19 +55,21 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 </p>
 
 ### 1.2 DataSets
-|                                |  Total Size |Path length | Sensors |Urbanization | Download  | 3D PointCloud |
+|                                |  Total Size |Path length | Sensors |Urban Canyon | Download  | 3D PointCloud |
 |--------------------------------|----------:|:-------:|:-------:|:-------:|:-------:|:---------:|
-| [UrbanNav-HK-TST-20210517](#urbannav-hk-tst-20210517)        | 33.7 GB (785s)  | 3.64 Km | LiDARs/Stereo Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) | [TST map](http://13.250.107.205/examples/urbannav/tst/) | 
-| [UrbanNav-HK-Whampoa-20210521](#urbannav-hk-whampoa-20210521)   | 63.9 GB (1536s) | 4.51 Km | LiDARs/Stereo Camera/IMU/GNSS| Dense |[ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0)  | [Whampoa map](http://13.250.107.205/examples/urbannav/whampoa/) |
-| [UrbanNav-HK-Mongkok-20210518](#urbannav-hk-mongkok-20210518)   | 147 GB (3367s)  | 4.86 Km | LiDARs/Stereo Camera/IMU/GNSS | Harsh |[ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) | [Mongkok map](http://13.250.107.205/examples/urbannav/mongkok/) |
-| [UrbanNav-HK-CHTunnel-20210518](#urbannav-hk-chtunnel-20210518)  | 17 GB (398s)    | 3.15 Km | LiDARs/Stereo Camera/IMU/GNSS  | N/A |[ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) | [Tunnel map](http://13.250.107.205/examples/urbannav/tunnel/) | 
+| [UrbanNav-HK-Medium-Urban-1](#urbannav-hk-tst-20210517)        | 33.7 GB (785s)  | 3.64 Km | LiDARs/Stereo Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) | [TST map](http://13.250.107.205/examples/urbannav/tst/) | 
+| [UrbanNav-HK-Deep-Urban-1](#urbannav-hk-whampoa-20210521)   | 63.9 GB (1536s) | 4.51 Km | LiDARs/Stereo Camera/IMU/GNSS| Deep |[ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0)  | [Whampoa map](http://13.250.107.205/examples/urbannav/whampoa/) |
+| [UrbanNav-HK-Harsh-Urban-1](#urbannav-hk-mongkok-20210518)   | 147 GB (3367s)  | 4.86 Km | LiDARs/Stereo Camera/IMU/GNSS | Harsh |[ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) | [Mongkok map](http://13.250.107.205/examples/urbannav/mongkok/) |
+| [UrbanNav-HK-Tunnel-1](#urbannav-hk-chtunnel-20210518)  | 17 GB (398s)    | 3.15 Km | LiDARs/Stereo Camera/IMU/GNSS  | N/A |[ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) | [Tunnel map](http://13.250.107.205/examples/urbannav/tunnel/) | 
 | [UrbanNav-HK-Data20190428](#urbannav-hk-data20190428)            | 42.9 GB (487s)  | 2.01 Km | LiDAR/Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A|
 | [UrbanNav-HK-Data20200314](#urbannav-hk-data20200314)             |27.0 GB (300s)  | 1.21 Km | LiDAR/Camera/IMU/GNSS  | Light |[ROS](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A |
 
 
 #### UrbanNav-HK-TST-20210517
+
 Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428, two loops included. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-TST-20210517/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-TST-20210517/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-TST-20210517/zed2_intrinsics.yaml).
-- [UrbanNav-HK-TST-20210517](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0) (ROS, [video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0))
+- [Demo video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0)
+- [ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0)
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
     - Slant lidars ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/left/lslidar_point_cloud``` ```/right/velodyne_points``` 
@@ -75,10 +77,10 @@ Dataset UrbanNav-HK-TST-20210517 is collected in a typical urban canyon of Hong 
     - IMU ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
     - SPAN-CPT after IE post-processing ([novatel_msgs/INSPVAX](http://docs.ros.org/en/jade/api/novatel_msgs/html/msg/INSPVAX.html)): ```/novatel_data/inspvax```
     - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
-- [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) (RINEX)
+- [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
-- [SPAN-CPT](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0)， Ground Truth, 1Hz 
-
+- [IMU](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0), Xsens MTi 10, 400Hz 
+- [Ground Truth](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0), NovAtel SPAN-CPT + IE, 1Hz 
 <p align="center">
   <img width="712pix" src="img/UrbanNav-HK-TST-20210517.gif">
 </p>
