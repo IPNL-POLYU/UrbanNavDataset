@@ -257,7 +257,7 @@ Refer to [Example_usage](tools/data_usage/readme.md)
 
 
 ## 5. License
-For any technical issues, please contact [Weisong Wen](https://weisongwen.wixsite.com/weisongwen) via email <17902061r@connect.polyu.hk>. For commercial inquiries, please contact [Li-ta Hsu](https://www.polyu-ipn-lab.com/) via email <lt.hsu@polyu.edu.hk>.
+For any technical issues, please contact Feng Huang via email <darren-f.huang@connect.polyu.hk> and [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-weisong-wen/) via email <welson.wen@polyu.edu.hk>. For collaboration inquiries, please contact [Li-Ta Hsu](https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/) via email <lt.hsu@polyu.edu.hk>.
 
 ## 6. Related Publication
 
