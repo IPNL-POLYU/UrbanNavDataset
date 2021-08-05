@@ -1,4 +1,4 @@
-# Data Usage
+# Getting Started
 ## GNSS 
 Data preparation
 - Download the RINEX observation &lt;Date&gt;\.&lt;scenario&gt;\.&lt;place&gt;\.&lt;receiver&gt;\.obs
