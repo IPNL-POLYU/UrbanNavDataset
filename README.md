@@ -11,11 +11,17 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 **Important Notes**: 
   - **About access to GNSS RINEX file**: The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We will recently open-source a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as customized ROS message. Meanwhile, we [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provide the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO). If you wish to use the GraphGNSSLib, keep an eye on the update of this repo.
-  - **Dataset contribution**: Researches who wish to contribute their dataset as part of the UrbanNav dataset, please feel free to contact me via email <darren-f.huang@connect.polyu.hk>, <welson.wen@polyu.edu.hk>, and <lt.hsu@polyu.edu.hk>. We wish the UrbanNav can be a platform for navigation solution development, validation and sharing.
+  - **Dataset contribution**: Researches who wish to contribute their dataset as part of the UrbanNav dataset, please feel free to contact us via email <darren-f.huang@connect.polyu.hk>, <welson.wen@polyu.edu.hk>, and <lt.hsu@polyu.edu.hk>. We wish the UrbanNav can be a platform for navigation solution development, validation and sharing.
   - **Algorithm validation and contribution**: Researches are welcomed to share their navigation solution results, source code to the UrbanNav dataset after a code review process, e,g, code for GNSS/INS integration or LiDAR SLAM, etc. 
 
 ## Overview
-
+- [Objective](#Objective-of-the-Dataset)
+- [Hong Kong Dataset](#hong-kong-dataset)
+- [Tokyo Dataset](#tokyo-dataset)
+- [Getting Started](doc/GETTING_STARTED.md)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
+- [Relate Publications](doc/RELATE_PUBLICATIONS.md)
 
 ## Objective of the Dataset
 
@@ -31,19 +37,9 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 **Related Papers:** 
   - Hsu, L.-T.; Kubo, N.; Chen, W.; Liu, Z.; Suzuki, T.; Meguro, J. UrbanNav:An open-sourced multisensory dataset for benchmarking positioning algorithms designed for urban areas (Accepted). In Proceedings of the ION GNSS+ 2021, St. Louis, MO, USA, 20–24 September 2021.
-  - Wen, Weisong, Xiwei Bai, Li-Ta Hsu, and Tim Pfeifer. "GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in Urban Scenarios: An Approach Robust to Non-Gaussian Noise." In 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS), pp. 647-654. IEEE, 2020. https://doi.org/10.1109/PLANS46316.2020.9110157
-  - Zhang, Jiachen, Weisong Wen, Feng Huang, Xiaodong Chen, and Li-Ta Hsu. 2021. "Coarse-to-Fine Loosely-Coupled LiDAR-Inertial Odometry for Urban Positioning and Mapping" Remote Sensing 13, no. 12: 2371. https://doi.org/10.3390/rs13122371
-  - Huang, Feng, Weisong Wen, Jiachen Zhang and L. Hsu. “Point wise or Feature wise? Benchmark Comparison of Public Available LiDAR Odometry Algorithms in Urban Canyons.” IEEE Intelligent Transportation Systems Magazine (accepted), 2021.
 
-*if you use GraphGNSSLib for your academic research, please cite our related [codes](https://github.com/weisongwen/GraphGNSSLib) and [paper](https://arxiv.org/abs/2106.01594)*
-
-**Work related to urbanNav Dataset: (please emails to <welson.wen@polyu.edu.hk> if you used this dataset and publish papers based on it.)** 
-  - Li, Tao, Ling Pei, Yan Xiang, Qi Wu, Songpengcheng Xia, Lihao Tao, and Wenxian Yu. "P3-LOAM: PPP/LiDAR Loosely Coupled SLAM with Accurate Covariance Estimation and Robust RAIM in Urban Canyon Environment." IEEE Sensors Journal (2020). [paper](https://arxiv.org/pdf/2012.02399.pdf)
-  - Chen, Chao, and Guobin Chang. "PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations." GPS Solutions 25, no. 1 (2020): 1-7. [PPPLib Code](https://github.com/heiwa0519/PPPLib), [paper](https://link.springer.com/article/10.1007/s10291-020-01052-4)
-  - Li, Kailai, Meng Li, and Uwe D. Hanebeck. "Towards high-performance solid-state-lidar-inertial odometry and mapping." IEEE Robotics and Automation Letters 6.3 (2021): 5167-5174.
-
-## 1. Hong Kong Dataset
-### 1.1 **Sensor Setups**
+## Hong Kong Dataset
+### **Sensor Setups**
 The platform for data collection in Hong Kong is a Honda Fit. The platform is equipped with the following sensors:
   - 3D LiDAR sensor: ([HDL 32E Velodyne](https://velodynelidar.com/products/hdl-32e/)): (360 HFOV, +10~-30 VFOV, 80m range, 10Hz)，
   - Slant lidars: [VLP16 Velodyne](https://velodynelidar.com/products/puck/), [Lslidar C16](http://wiki.ros.org/lslidar_c16)
@@ -57,7 +53,7 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
   <img width="712pix" src="img/hongkong_sensor2.png">
 </p>
 
-### 1.2 DataSets
+### DataSets
 |                                    |  Total Size |Path length | Sensors |Urban Canyon | Download  | 3D PointCloud |
 |------------------------------------|----------:|:-------:|:-------:|:-------:|:-------:|:---------:|
 | [UrbanNav-HK-Medium-Urban-1](#urbannav-hk-medium-urban-1)        | 33.7 GB (785s)  | 3.64 Km | LiDARs/Stereo Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0), [IMU](https://www.dropbox.com/sh/p9ia1drm6t3s839/AABWgd57VNAAmUzb-tannjmxa?dl=0), [Ground Truth](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0)| [Medium Urban Map](http://13.250.107.205/examples/urbannav/tst/) | 
@@ -110,7 +106,7 @@ Dataset UrbanNav-HK-Deep-Urban-1 is collected in a highly urbanized area of Hong
 
 #### UrbanNav-HK-Harsh-Urban-1
 Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an ultra-dense urban canyon of Hong Kong which involves dense vehicles, pedestrians and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Harsh-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Harsh-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Harsh-Urban-1/zed2_intrinsics.yaml).
-- [Demo video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0))
+- [Demo video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0)
 - [ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0)  
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -129,7 +125,7 @@ Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an ultra-dense urban canyon of
 #### UrbanNav-HK-Tunnel-1
 UrbanNav-HK-Tunnel-1 is collected in a sea tunnel of Hong Kong which involves dense vehicles and GNSS signal losses. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Tunnel-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Tunnel-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Tunnel-1/zed2_intrinsics.yaml).
 
-- [Demo video](https://www.dropbox.com/s/tcc4cfx2mgttsdc/4.tunnel_x5.mkv?dl=0))
+- [Demo video](https://www.dropbox.com/s/tcc4cfx2mgttsdc/4.tunnel_x5.mkv?dl=0)
 - [ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0)  
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -219,8 +215,8 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
 </p>
 
 
-## 2. Tokyo Dataset
-### 2.1 **Sensor Setups**
+## Tokyo Dataset
+### **Sensor Setups**
 The platform for data collection in Tokyo is a Toyota Rush. The platform is equipped with the following sensors:
   - 3D LiDAR sensor ([VLP-32C Velodyne](https://velodynelidar.com/products/ultra-puck/)): (360 HFOV, +15~-25 VFOV, 200m range, 10Hz) 
   - GNSS receiver: [u-blox F9P](https://www.u-blox.com/en/product/zed-f9p-module) (5 Hz) and [Trimble NetR9](https://trl.trimble.com/docushare/dsweb/Get/Document-689228/022506-128J_NetR9_DS_USL_0517_LR.pdf) (10 Hz)
@@ -232,7 +228,7 @@ The platform for data collection in Tokyo is a Toyota Rush. The platform is equi
   <img width="712pix" src="img/tokyosensor.png">
 </p>
 
-### 2.2. Dataset 1: UrbanNav-TK-20181219
+### Dataset 1: UrbanNav-TK-20181219
 #### Important Notes: the LiDAR calibration file for the LiDAR sensor, extrinsic parameters between sensors are not available now. If you wish to study the GNSS/LiDAR/IMU integration, we suggest using the dataset above collected in Hong Kong. However, the GNSS dataset from Tokyo is challenging which is collected in challenging urban canyons!
 
   | Date of Collection | Total Size |Path length |Sensors |
@@ -260,28 +256,9 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
 </p>
 
 
-## 3. Acknowledgements
+## Acknowledgements
 We acknowledge the help from Yihan Zhong, Jiachen Zhang, Yin-chiu Kan Weichang Xu and Song Yang.
 
-## 4. Example usage
-
-Refer to [Example_usage](tools/data_usage/readme.md)
-
-
-## 5. License
+## License
 For any technical issues, please contact Feng Huang via email <darren-f.huang@connect.polyu.hk> and [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-weisong-wen/) via email <welson.wen@polyu.edu.hk>. For collaboration inquiries, please contact [Li-Ta Hsu](https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/) via email <lt.hsu@polyu.edu.hk>.
 
-## 6. Related Publication
-
-1. Wen, Weisong, Guohao Zhang, and Li-Ta Hsu. "Exclusion of GNSS NLOS receptions caused by dynamic objects in heavy traffic urban scenarios using real-time 3D point cloud: An approach without 3D maps." Position, Location and Navigation Symposium (PLANS), 2018 IEEE/ION. IEEE, 2018. 
-
-2. Wen, W.; Hsu, L.-T.*; Zhang, G. (2018) Performance analysis of NDT-based graph slam for autonomous vehicle in diverse typical driving scenarios of Hong Kong. Sensors 18, 3928.
-
-3. Wen, W., Zhang, G., Hsu, Li-Ta (Presenter), Correcting GNSS NLOS by 3D LiDAR and Building Height, ION GNSS+, 2018, Miami, Florida, USA.
-
-4. Zhang, G., Wen, W., Hsu, Li-Ta, Collaborative GNSS Positioning with the Aids of 3D City Models, ION GNSS+, 2018, Miami, Florida, USA. (Best Student Paper Award)
-
-5. Zhang, G., Wen, W., Hsu, Li-Ta, A Novel GNSS based V2V Cooperative Localization to Exclude Multipath Effect using Consistency Checks, IEEE PLANS, 2018, Monterey, California, USA.
-Copyright (c) 2018 Weisong WEN
-
-6. Wen Weisong., Tim Pfeifer., Xiwei Bai., Hsu, L.T.* Comparison of Extended Kalman Filter and Factor Graph Optimization for GNSS/INS Integrated Navigation System, The Journal of Navigation, 2020, (SCI. 2019 IF. 3.019, Ranking 10.7%) [Submitted]
