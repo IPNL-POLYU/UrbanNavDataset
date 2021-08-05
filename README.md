@@ -87,7 +87,7 @@ Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hon
 
 #### UrbanNav-HK-Deep-Urban-1
 Dataset UrbanNav-HK-Deep-Urban-1 is collected in a [highly urbanized area](https://goo.gl/maps/6MNJwLhJomz6sf2q6) of Hong Kong which involves dense traffic, small tunnels and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Deep-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Deep-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Deep-Urban-1/zed2_intrinsics.yaml).
-- [Demo video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0))
+- [Demo video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0)
 - [ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0)  
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
