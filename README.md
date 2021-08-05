@@ -260,7 +260,7 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
 
 
 ## Acknowledgements
-We acknowledge the help from Yihan Zhong, Jiachen Zhang, Yin-chiu Kan Weichang Xu and Song Yang.
+We acknowledge the help from Yihan Zhong, Jiachen Zhang, Yin-chiu Kan, Weichang Xu and Song Yang.
 
 ## License
 For any technical issues, please contact Feng Huang via email <darren-f.huang@connect.polyu.hk> and [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-weisong-wen/) via email <welson.wen@polyu.edu.hk>. For collaboration inquiries, please contact [Li-Ta Hsu](https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/) via email <lt.hsu@polyu.edu.hk>.
