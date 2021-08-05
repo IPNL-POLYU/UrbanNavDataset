@@ -18,10 +18,10 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 - [Objective](#Objective-of-the-Dataset)
 - [Hong Kong Dataset](#hong-kong-dataset)
 - [Tokyo Dataset](#tokyo-dataset)
-- [Getting Started](doc/GETTING_STARTED.md)
+- [Getting Started](docs/GETTING_STARTED.md)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
-- [Relate Publications](doc/RELATE_PUBLICATIONS.md)
+- [Relate Publications](docs/RELATE_PUBLICATIONS.md)
 
 ## Objective of the Dataset
 
