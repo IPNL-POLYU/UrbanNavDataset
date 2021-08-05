@@ -56,17 +56,17 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 ### DataSets
 |                                    |  Total Size |Path length | Sensors |Urban Canyon | Download  | 3D PointCloud |
 |------------------------------------|----------:|:-------:|:-------:|:-------:|:-------:|:---------:|
-| [UrbanNav-HK-Medium-Urban-1](#urbannav-hk-medium-urban-1)        | 33.7 GB (785s)  | 3.64 Km | LiDARs/Stereo Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0), [IMU](https://www.dropbox.com/sh/p9ia1drm6t3s839/AABWgd57VNAAmUzb-tannjmxa?dl=0), [Ground Truth](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0)| [Medium Urban Map](http://13.250.107.205/examples/urbannav/tst/) | 
-| [UrbanNav-HK-Deep-Urban-1](#urbannav-hk-deep-urban-1)   | 63.9 GB (1536s) | 4.51 Km | LiDARs/Stereo Camera/IMU/GNSS| Deep |[ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0)  | [Deep Urban Map](http://13.250.107.205/examples/urbannav/whampoa/) |
-| [UrbanNav-HK-Harsh-Urban-1](#urbannav-hk-harsh-urban-1)   | 147 GB (3367s)  | 4.86 Km | LiDARs/Stereo Camera/IMU/GNSS | Harsh |[ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) | [Harsh Urban Map](http://13.250.107.205/examples/urbannav/mongkok/) |
-| [UrbanNav-HK-Tunnel-1](#urbannav-hk-tunnel-1)  | 17 GB (398s)    | 3.15 Km | LiDARs/Stereo Camera/IMU/GNSS  | N/A |[ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) | [Tunnel map](http://13.250.107.205/examples/urbannav/tunnel/) | 
+| [UrbanNav-HK-Medium-Urban-1](#urbannav-hk-medium-urban-1)        | 33.7 GB (785s)  | 3.64 Km | LiDARs/Stereo Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0), [IMU](https://www.dropbox.com/sh/sf0gvu83ctpis79/AAAKdUsOpGcfy8BGQ1Sz9hvPa?dl=0), [Ground Truth](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0)| [Medium Urban Map](http://13.250.107.205/examples/urbannav/tst/) | 
+| [UrbanNav-HK-Deep-Urban-1](#urbannav-hk-deep-urban-1)   | 63.9 GB (1536s) | 4.51 Km | LiDARs/Stereo Camera/IMU/GNSS| Deep |[ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0), [IMU](https://www.dropbox.com/sh/p9ia1drm6t3s839/AABWgd57VNAAmUzb-tannjmxa?dl=0), [Ground Truth](https://www.dropbox.com/s/ej2mkue2w3r36s2/UrbanNav_whampoa_raw.txt?dl=0)| [Deep Urban Map](http://13.250.107.205/examples/urbannav/whampoa/) |
+| [UrbanNav-HK-Harsh-Urban-1](#urbannav-hk-harsh-urban-1)   | 147 GB (3367s)  | 4.86 Km | LiDARs/Stereo Camera/IMU/GNSS | Harsh |[ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0), [IMU](https://www.dropbox.com/sh/ib23go60mtx0sxt/AACzbVRTHrcrV37xpLjeIGW7a?dl=0), [Ground Truth](https://www.dropbox.com/s/yaexvwppb6k3szp/UrbanNav_mongkok_GT_part_raw.txt?dl=0) | [Harsh Urban Map](http://13.250.107.205/examples/urbannav/mongkok/) |
+| [UrbanNav-HK-Tunnel-1](#urbannav-hk-tunnel-1)  | 17 GB (398s)    | 3.15 Km | LiDARs/Stereo Camera/IMU/GNSS  | N/A |[ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0), [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0), [IMU](https://www.dropbox.com/sh/lh6zpaam87dswfg/AAAoPgQLlv8JFKj-hY3BWUcBa?dl=0), [Ground Truth](https://www.dropbox.com/s/fqsviiei3r5tu6r/UrbanNav_tunnel_GT_raw.txt?dl=0) | [Tunnel map](http://13.250.107.205/examples/urbannav/tunnel/) | 
 | [(Pilot data) UrbanNav-HK-Data20190428](#urbannav-hk-data20190428)            | 42.9 GB (487s)  | 2.01 Km | LiDAR/Camera/IMU/GNSS | Medium |[ROS](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A|
 | [(Pilot data) UrbanNav-HK-Data20200314](#urbannav-hk-data20200314)             |27.0 GB (300s)  | 1.21 Km | LiDAR/Camera/IMU/GNSS  | Light |[ROS](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0), [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) | N/A |
 
 
 #### UrbanNav-HK-Medium-Urban-1
 
-Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428, two loops included. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Medium-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Medium-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Medium-Urban-1/zed2_intrinsics.yaml).
+Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hong Kong near [TST](https://goo.gl/maps/Sjt5WadnVEnzj6XU6)  which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428, two loops included. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Medium-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Medium-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Medium-Urban-1/zed2_intrinsics.yaml).
 - [Demo video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0)
 - [ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0)
   - ROSBAG file which includes:
@@ -86,7 +86,7 @@ Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hon
 </p>
 
 #### UrbanNav-HK-Deep-Urban-1
-Dataset UrbanNav-HK-Deep-Urban-1 is collected in a highly urbanized area of Hong Kong which involves dense traffic, small tunnels and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Deep-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Deep-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Deep-Urban-1/zed2_intrinsics.yaml).
+Dataset UrbanNav-HK-Deep-Urban-1 is collected in a [highly urbanized area](https://goo.gl/maps/6MNJwLhJomz6sf2q6) of Hong Kong which involves dense traffic, small tunnels and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Deep-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Deep-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Deep-Urban-1/zed2_intrinsics.yaml).
 - [Demo video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0))
 - [ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0)  
   - ROSBAG file which includes:
@@ -96,16 +96,17 @@ Dataset UrbanNav-HK-Deep-Urban-1 is collected in a highly urbanized area of Hong
     - IMU ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
     - SPAN-CPT after IE post-processing ([novatel_msgs/INSPVAX](http://docs.ros.org/en/jade/api/novatel_msgs/html/msg/INSPVAX.html)): ```/novatel_data/inspvax```
     - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
-- [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0) (RINEX)
+- [GNSS](https://www.dropbox.com/sh/7ox7718bzcjqtlf/AABH_Kjm65gHQ09K3antBRdua?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
-- [SPAN-CPT](https://www.dropbox.com/s/ej2mkue2w3r36s2/UrbanNav_whampoa_raw.txt?dl=0)， Ground Truth, 1Hz 
+- [IMU](https://www.dropbox.com/s/ivn5hbf7m845y8h/xsense_imu_deep_urban1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/9qv0axmvvl3g1si/phone_imu_deep_urban1.csv?dl=0), Xiaomi 8, 239Hz
+- [Ground Truth](https://www.dropbox.com/s/ej2mkue2w3r36s2/UrbanNav_whampoa_raw.txt?dl=0)， NovAtel SPAN-CPT + IE, 1Hz 
 
 <p align="center">
   <img width="712pix" src="img/UrbanNav-HK-Whampoa-20210521.gif">
 </p>
 
 #### UrbanNav-HK-Harsh-Urban-1
-Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an ultra-dense urban canyon of Hong Kong which involves dense vehicles, pedestrians and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Harsh-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Harsh-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Harsh-Urban-1/zed2_intrinsics.yaml).
+Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an [ultra-dense urban canyon](https://goo.gl/maps/YRgizi16z6aNvhi88) of Hong Kong which involves dense vehicles, pedestrians and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Harsh-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Harsh-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Harsh-Urban-1/zed2_intrinsics.yaml).
 - [Demo video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0)
 - [ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0)  
   - ROSBAG file which includes:
@@ -114,16 +115,17 @@ Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an ultra-dense urban canyon of
     - Stereo Camera ([sensor_msgs/Image](https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Image.html)): ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
     - IMU ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
     - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
-- [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) (RINEX)
+- [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
-- [SPAN-CPT](https://www.dropbox.com/s/yaexvwppb6k3szp/UrbanNav_mongkok_GT_part_raw.txt?dl=0)， Ground Truth, 1Hz 
+- [IMU](https://www.dropbox.com/s/brlo4kzslhuth1z/xsense_imu_harsh_1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/lqshijj9u9k8o7c/phone_imu_harsh_1.csv?dl=0), Xiaomi 8, 239Hz
+- [Ground Truth](https://www.dropbox.com/s/yaexvwppb6k3szp/UrbanNav_mongkok_GT_part_raw.txt?dl=0)， NovAtel SPAN-CPT + IE, 1Hz 
 
 <p align="center">
   <img width="712pix" src="img/UrbanNav-HK-Mongkok-20210518.gif">
 </p>
 
 #### UrbanNav-HK-Tunnel-1
-UrbanNav-HK-Tunnel-1 is collected in a sea tunnel of Hong Kong which involves dense vehicles and GNSS signal losses. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Tunnel-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Tunnel-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Tunnel-1/zed2_intrinsics.yaml).
+UrbanNav-HK-Tunnel-1 is collected in a [sea tunnel](https://goo.gl/maps/eaMvfPZ4EeXxDuoL6) of Hong Kong which involves dense vehicles and GNSS signal losses. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Tunnel-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Tunnel-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Tunnel-1/zed2_intrinsics.yaml).
 
 - [Demo video](https://www.dropbox.com/s/tcc4cfx2mgttsdc/4.tunnel_x5.mkv?dl=0)
 - [ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0)  
@@ -134,9 +136,10 @@ UrbanNav-HK-Tunnel-1 is collected in a sea tunnel of Hong Kong which involves de
     - IMU: ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
     - SPAN-CPT after IE post-processing ([novatel_msgs/INSPVAX](http://docs.ros.org/en/jade/api/novatel_msgs/html/msg/INSPVAX.html)): ```/novatel_data/inspvax```
     - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
-- [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) (RINEX)
+- [GNSS](https://www.dropbox.com/sh/9new5uwl7f9d2c9/AAAdisSwBOOi40Vf3r5PGtSCa?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
-- [SPAN-CPT](https://www.dropbox.com/s/fqsviiei3r5tu6r/UrbanNav_tunnel_GT_raw.txt?dl=0)， Ground Truth, 1Hz 
+- [IMU](https://www.dropbox.com/s/kuthuh8we6go9aa/xsense_imu_tunnel_1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/pxsdvxqo3t7f9qc/phone_imu_tunnel_1.csv?dl=0), Xiaomi 8, 239Hz
+- [Ground Truth](https://www.dropbox.com/s/fqsviiei3r5tu6r/UrbanNav_tunnel_GT_raw.txt?dl=0)， NovAtel SPAN-CPT + IE, 1Hz  
 
 <p align="center">
   <img width="712pix" src="img/UrbanNav-HK-CHTunnel-20210518.gif">
