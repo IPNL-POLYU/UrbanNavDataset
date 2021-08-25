@@ -21,7 +21,7 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 - [Getting Started](docs/GETTING_STARTED.md)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
-- [Relate Publications](docs/RELATE_PUBLICATIONS.md)
+- [Related Publications](docs/RELATED_PUBLICATIONS.md)
 
 ## Objective of the Dataset
 
