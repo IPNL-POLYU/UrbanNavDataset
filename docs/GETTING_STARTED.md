@@ -1,6 +1,6 @@
 # Getting Started
-## GNSS 
-Data preparation
+## GNSS ([Video](https://www.dropbox.com/s/y0apx3wn67eghpb/tutorial%20-%20gnss%20using%20UrbanNav.mp4?dl=0))
+Data preparation，
 - Download the RINEX observation &lt;Date&gt;\.&lt;scenario&gt;\.&lt;place&gt;\.&lt;receiver&gt;\.obs
 - Download the Ephemeris data, e.g. [SatRef](https://www.geodetic.gov.hk/en/rinex/downv.aspx) from Hong Kong Lands Department 
 
@@ -12,7 +12,7 @@ Using GNSS library for post-processing and evaluation
 ![Processing](img/gnss_2.png)
 
 
-## Visual Inertial Odometry 
+## Visual Inertial Odometry ([Video](https://www.dropbox.com/s/c9meu3as92154ti/tutorial%20-%20visual_inerial%20using%20UrbanNav.mp4?dl=0))
 Data preparation,
 - Download the bag file;
 - Clone the [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) repository from GitHub;
@@ -24,7 +24,7 @@ rosrun vins vins_node ~/catkin_ws/src/VINS-Fusion/config/vi_car/vi_car.yaml
 rosbag play DATASET.bag
 ```
 
-## LiDAR Inertial Odometry
+## LiDAR Inertial Odometry ([Video](https://www.dropbox.com/s/4efsquft7t6b5dp/tutorial%20-%20lidar_inerial_using%20UrbanNav.mp4?dl=0))
 - Take scenario (a) as an example
 Download the rosbag [UrbanNav-HK-Medium-Urban-1](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0)
 ![rosbag info](img/rosbag_info_medium_urban1.png)
