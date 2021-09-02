@@ -67,7 +67,7 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 #### UrbanNav-HK-Medium-Urban-1
 
 Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hong Kong near [TST](https://goo.gl/maps/Sjt5WadnVEnzj6XU6)  which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428, two loops included. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Medium-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Medium-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Medium-Urban-1/zed2_intrinsics.yaml).
-- [Demo video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0)
+- [Demo Video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0), [Sky-pointing Camera Video](https://www.dropbox.com/s/mol3w6hisxj8wiy/demo1_medium-Sky-pointing%20camera.mp4?dl=0)
 - [ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0)
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -87,7 +87,7 @@ Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hon
 
 #### UrbanNav-HK-Deep-Urban-1
 Dataset UrbanNav-HK-Deep-Urban-1 is collected in a [highly urbanized area](https://goo.gl/maps/6MNJwLhJomz6sf2q6) of Hong Kong which involves dense traffic, small tunnels and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Deep-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Deep-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Deep-Urban-1/zed2_intrinsics.yaml).
-- [Demo video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0)
+- [Demo Video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0), [Sky-pointing Camera Video](https://www.dropbox.com/s/q2rueti4dd6i163/demo2_deep-Sky-pointing%20camera.mp4?dl=0)
 - [ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0)  
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -107,7 +107,7 @@ Dataset UrbanNav-HK-Deep-Urban-1 is collected in a [highly urbanized area](https
 
 #### UrbanNav-HK-Harsh-Urban-1
 Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an [ultra-dense urban canyon](https://goo.gl/maps/YRgizi16z6aNvhi88) of Hong Kong which involves dense vehicles, pedestrians and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Harsh-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Harsh-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Harsh-Urban-1/zed2_intrinsics.yaml).
-- [Demo video](https://www.dropbox.com/s/7t29m6tqkzefdx2/3.mongkok_x5.mp4?dl=0)
+- [Demo Video](https://www.dropbox.com/s/7t29m6tqkzefdx2/3.mongkok_x5.mp4?dl=0), [Sky-pointing Camera Video](https://www.dropbox.com/s/949m1y01gkk3q19/demo3_harsh-Sky-pointing%20camera.mp4?dl=0)
 - [ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0)  
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -127,7 +127,7 @@ Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an [ultra-dense urban canyon](
 #### UrbanNav-HK-Tunnel-1
 UrbanNav-HK-Tunnel-1 is collected in a [sea tunnel](https://goo.gl/maps/eaMvfPZ4EeXxDuoL6) of Hong Kong which involves dense vehicles and GNSS signal losses. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Tunnel-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Tunnel-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Tunnel-1/zed2_intrinsics.yaml).
 
-- [Demo video](https://www.dropbox.com/s/tcc4cfx2mgttsdc/4.tunnel_x5.mkv?dl=0)
+- [Demo Video](https://www.dropbox.com/s/tcc4cfx2mgttsdc/4.tunnel_x5.mkv?dl=0)
 - [ROS](https://www.dropbox.com/s/8vwkero6boujtzb/UrbanNav-HK_CHTunnel-20210518_sensors.bag?dl=0)  
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
