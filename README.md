@@ -79,7 +79,7 @@ Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hon
     - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
 - [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
-- [IMU](https://www.dropbox.com/s/ivn5hbf7m845y8h/xsense_imu_medium_urban1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/9qv0axmvvl3g1si/phone_imu_medium_urban1.csv?dl=0), Xiaomi 8, 239Hz
+- [IMU](https://www.dropbox.com/s/3usxqzy2og1idgg/xsense_imu_medium_urban1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/73t3x2vc5nwd3rb/phone_imu_medium_urban1.csv?dl=0), Xiaomi 8, 239Hz
    - IMU data for **non-ROS users**.
 - [Ground Truth](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0), NovAtel SPAN-CPT + IE, 1Hz 
 
