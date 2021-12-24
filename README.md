@@ -9,11 +9,6 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
   <img width="712pix" src="img/urbanNav.png">
 </p>
 
-<p align="center">
-  <img width="712pix" src="img/calibration_sensors.png">
-</p>
-
-
 **Important Notes**: 
   - **About access to GNSS RINEX file**: The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We will recently open-source a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as customized ROS message. Meanwhile, we [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provide the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO). If you wish to use the GraphGNSSLib, keep an eye on the update of this repo.
   - **Dataset contribution**: Researches who wish to contribute their dataset as part of the UrbanNav dataset, please feel free to contact us via email <darren-f.huang@connect.polyu.hk>, <welson.wen@polyu.edu.hk>, and <lt.hsu@polyu.edu.hk>. We wish the UrbanNav can be a platform for navigation solution development, validation and sharing.
@@ -57,6 +52,9 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 
 <p align="center">
   <img width="712pix" src="img/hongkong_sensor2.png">
+</p>
+<p align="center">
+  <img width="712pix" src="img/calibration_sensors.png">
 </p>
 
 ### DataSets
