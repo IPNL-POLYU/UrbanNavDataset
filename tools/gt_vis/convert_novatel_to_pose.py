@@ -73,7 +73,7 @@ def convert_novatel_to_pose(novatel,convert_body_frame):
 
     # This is the T_locallevel_body transform where ENU is the local level frame
     # and the imu is the body frame
-    # https://www.novatel.com/assets/Documents/Bulletins/apn037.pdf
+    # https://hexagondownloads.blob.core.windows.net/public/Novatel/assets/Documents/Bulletins/apn037/apn037.pdf
 
     pose = np.matrix([
       [c_psi * c_phi - s_psi * s_theta * s_phi, -s_psi * c_theta, c_psi * s_phi + s_psi * s_theta * c_phi, enu_x],
