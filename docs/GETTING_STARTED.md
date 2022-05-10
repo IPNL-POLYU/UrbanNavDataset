@@ -23,6 +23,7 @@ roslaunch vins vins_rviz.launch
 rosrun vins vins_node ~/catkin_ws/src/VINS-Fusion/config/vi_car/vi_car.yaml
 rosbag play DATASET.bag
 ```
+Also can refer to our evaluation result: https://github.com/baaixw/VINS-Fusion-for-UrbanNavDataset-Evaluation
 
 ## LiDAR Inertial Odometry ([Video](https://www.dropbox.com/s/4efsquft7t6b5dp/tutorial%20-%20lidar_inerial_using%20UrbanNav.mp4?dl=0))
 - Take scenario (a) as an example
