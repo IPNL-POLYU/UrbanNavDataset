@@ -48,7 +48,7 @@ LEFT_LiDAR_T_CENTER_LiDAR: !!opencv-matrix
 
 ################## Extrinsic parameter from Right Lidar to Center Lidar##################
 # for ros: rosrun tf static_transform_publisher    0.323744 -0.00124153   -0.200876 3.08919 2.17349 3.12012 /velodyne /velodyne_right 10
-LEFT_LiDAR_T_CENTER_LiDAR: !!opencv-matrix
+RIGHT_LiDAR_T_CENTER_LiDAR: !!opencv-matrix
    rows: 4
    cols: 4
    dt: d
