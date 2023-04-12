@@ -83,7 +83,7 @@ Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hon
 - [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
   - Known issue： One of the GNSS receivers (F9P) have a malfunction in a certain  period (details refer to [issue#11](https://github.com/IPNL-POLYU/UrbanNavDataset/issues/11), please use another GNSS receiver in that period instead) 
-- [IMU](hhttps://www.dropbox.com/s/2rh1rs15ihpf63u/xsense_imu_medium_urban1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/x3l4wzug634qhrw/phone_imu_medium_urban1.csv?dl=0), Xiaomi 8, 239Hz
+- [IMU](https://www.dropbox.com/s/2rh1rs15ihpf63u/xsense_imu_medium_urban1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/x3l4wzug634qhrw/phone_imu_medium_urban1.csv?dl=0), Xiaomi 8, 239Hz
    - IMU data for **non-ROS users**.
 - [Ground Truth](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0), NovAtel SPAN-CPT + IE, 1Hz 
 ##### For mainland china users, please download the dataset using the **Baidu Clouds Links**
