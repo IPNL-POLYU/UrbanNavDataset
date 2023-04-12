@@ -136,7 +136,7 @@ Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an [ultra-dense urban canyon](
     - Stereo Camera ([sensor_msgs/Image](https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Image.html)): ```/zed2/camera/left/image_raw``` ```/zed2/camera/right/image_raw```
     - IMU ([sensor_msgs/Imu](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Imu.html)): ```/imu/data```
     - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
-    - _Note_: Only part of GT is verified for this dataset thus not appended into this rosbag. For data consistency, a part of the rosbag with GT is provided here: [ROS_part]([https://www.dropbox.com/s/nsvi0cvwkcds0s6/UrbanNav-HK_Mongkok-20210518_sensors_part.bag?dl=0](https://www.dropbox.com/s/ee4fw96cdewebd0/UrbanNav-HK_Mongkok-20210518_sensors_part.bag?dl=0))
+    - _Note_: Only part of GT is verified for this dataset thus not appended into this rosbag. For data consistency, a part of the rosbag with GT is provided here: [ROS_part](https://www.dropbox.com/s/ee4fw96cdewebd0/UrbanNav-HK_Mongkok-20210518_sensors_part.bag?dl=0)
 - [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
 - [IMU](https://www.dropbox.com/s/brlo4kzslhuth1z/xsense_imu_harsh_1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/lqshijj9u9k8o7c/phone_imu_harsh_1.csv?dl=0), Xiaomi 8, 239Hz
