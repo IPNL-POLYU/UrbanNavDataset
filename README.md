@@ -140,7 +140,7 @@ Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an [ultra-dense urban canyon](
 - [GNSS](https://www.dropbox.com/sh/xej1cxv3a0erffc/AADfhRODJk__Z49WC1R0Nw5ea?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
 - [IMU](https://www.dropbox.com/s/brlo4kzslhuth1z/xsense_imu_harsh_1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/lqshijj9u9k8o7c/phone_imu_harsh_1.csv?dl=0), Xiaomi 8, 239Hz
-- [Ground Truth](https://www.dropbox.com/s/yaexvwppb6k3szp/UrbanNav_mongkok_GT_part_raw.txt?dl=0)， NovAtel SPAN-CPT + IE, 1Hz 
+- [Ground Truth](https://www.dropbox.com/s/ee4fw96cdewebd0/UrbanNav-HK_Mongkok-20210518_sensors_part.bag?dl=0)， NovAtel SPAN-CPT + IE, 1Hz 
 ##### For mainland china users, please download the dataset using the **Baidu Clouds Links**
 - Download by Baidu Cloud Link: 
   - [UrbanNav-HK-Harsh-Urban-1](https://pan.baidu.com/s/16pHxF4XcbhMUXMDd2xggyQ) (ROS)  (2q4j)
