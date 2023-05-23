@@ -1,5 +1,5 @@
 # Getting Started
-## GNSS ([Video](https://www.dropbox.com/s/y0apx3wn67eghpb/tutorial%20-%20gnss%20using%20UrbanNav.mp4?dl=0))
+## GNSS ([Video](https://www.dropbox.com/s/29o0duvhesodwwq/tutorial%20-%20gnss%20using%20UrbanNav.mp4?dl=0))
 Data preparation，
 - Download the RINEX observation &lt;Date&gt;\.&lt;scenario&gt;\.&lt;place&gt;\.&lt;receiver&gt;\.obs
 - Download the Ephemeris data, e.g. [SatRef](https://www.geodetic.gov.hk/en/rinex/downv.aspx) from Hong Kong Lands Department 
@@ -12,7 +12,7 @@ Using GNSS library for post-processing and evaluation
 ![Processing](img/gnss_2.png)
 
 
-## Visual Inertial Odometry ([Video](https://www.dropbox.com/s/c9meu3as92154ti/tutorial%20-%20visual_inerial%20using%20UrbanNav.mp4?dl=0))
+## Visual Inertial Odometry ([Video](https://www.dropbox.com/s/b0pcvmxjf9f7gog/tutorial%20-%20visual_inerial%20using%20UrbanNav.mp4?dl=0))
 Data preparation,
 - Download the bag file;
 - Clone the [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) repository from GitHub;
@@ -25,12 +25,12 @@ rosbag play DATASET.bag
 ```
 Also can refer to our evaluation result: https://github.com/baaixw/VINS-Fusion-for-UrbanNavDataset-Evaluation
 
-## LiDAR Inertial Odometry ([Video](https://www.dropbox.com/s/4efsquft7t6b5dp/tutorial%20-%20lidar_inerial_using%20UrbanNav.mp4?dl=0))
+## LiDAR Inertial Odometry ([Video](https://www.dropbox.com/s/1zyqgaygpziq359/tutorial%20-%20lidar_inerial_using%20UrbanNav.mp4?dl=0))
 - Take scenario (a) as an example
 Download the rosbag [UrbanNav-HK-Medium-Urban-1](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0)
 ![rosbag info](img/rosbag_info_medium_urban1.png)
 
-- Prepared the [fine-tune LIO-SAM](https://www.dropbox.com/s/g514ra8zm6nfz9r/LIO-SAM_for_urban.zip?dl=0) based on the intrinsic and extrinsic. The origianl LIO-SAM can be found at [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
+- Prepared the [fine-tune LIO-SAM](https://www.dropbox.com/s/ma0juab5kk780b9/LIO-SAM_for_urban.zip?dl=0) based on the intrinsic and extrinsic. The origianl LIO-SAM can be found at [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
 ```
 roslaunch lio_sam run_velodyne.launch
 ```
