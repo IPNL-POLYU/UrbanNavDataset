@@ -36,8 +36,8 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 **Contact Authors (corresponding to issues and maintenance of the currently available Hong Kong dataset)**: [Li-Ta Hsu](https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/), [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-weisong-wen/), [Feng Huang](https://www.polyu-ipn-lab.com/people), [Hoi-Fung Ng](https://www.polyu-ipn-lab.com/people), [GuoHao Zhang](https://www.polyu-ipn-lab.com/people), [Xiwei Bai](https://www.polyu-ipn-lab.com/people) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
 
 **Related Papers:** 
-  - Hsu, Li-Ta, Kubo, Nobuaki, Wen, Weisong, Chen, Wu, Liu, Zhizhao, Suzuki, Taro, Meguro, Junichi, "UrbanNav:An Open-Sourced Multisensory Dataset for Benchmarking Positioning Algorithms Designed for Urban Areas," Proceedings of the 34th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2021), St. Louis, Missouri, September 2021, pp. 226-256.
-https://doi.org/10.33012/2021.17895
+  - Hsu, L-T., Huang, F., Ng, H-F., Zhang, G., Zhong, Y., Bai, X., & Wen, W. (2023). Hong Kong UrbanNav: An open-source multisensory dataset for benchmarking urban navigation algorithms. NAVIGATION, 70(4). https://doi.org/10.33012/navi.602
+  - Hsu, Li-Ta, Kubo, Nobuaki, Wen, Weisong, Chen, Wu, Liu, Zhizhao, Suzuki, Taro, Meguro, Junichi, "UrbanNav:An Open-Sourced Multisensory Dataset for Benchmarking Positioning Algorithms Designed for Urban Areas," Proceedings of the 34th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2021), St. Louis, Missouri, September 2021, pp. 226-256. https://doi.org/10.33012/2021.17895
 
 ## Hong Kong Dataset
 ### **Sensor Setups**
