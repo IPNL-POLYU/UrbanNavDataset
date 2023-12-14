@@ -55,3 +55,5 @@ function utctime = gps2utc(gps_week, gps_seconds)
     utctime = (gps_week * SECONDS_IN_GPS_WEEK + gps_seconds-18) + 315964800  ; % 18 leap seconds
 end
 ```
+## GroundTruth data preprocessing
+If you use the raw GroundTruth data, like UrbanNav_TST_GT_raw.txt, we provide the following tools to help convert the coordinates to the ENU frame. The tool is here: UrbanNavDataset/tools/gt_vis/
