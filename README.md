@@ -201,6 +201,7 @@ Some key features are as follows:
     - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
   - [IMU/SPAN-CPT](https://www.dropbox.com/s/g1xt89py1j0uea1/IMU-Reference%20UrbanNav-HK-Data20190428.zip?dl=0) (CSV)
     - IMU and SPAN-CPT data for **non-ROS users**.
+    - _Note_: The rosbag timestamp might have a gap with the GPS time as no hardware time sync was applied in the pilot data. For more details refer to this [issue](https://github.com/IPNL-POLYU/UrbanNavDataset/issues/55)
 
 For mainland china users, please download the dataset using the **Baidu Clouds Links**
 - Download by Baidu Cloud Link: [Data INFO](https://pan.baidu.com/s/1QeeJMZutOtZBK0wXnVKM3Q), (qm3l)
@@ -237,6 +238,7 @@ Some key features are as follows:
       - SPAN-CPT: ```/novatel_data/inspvax```
   - [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) (RINEX)
     - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
+    - _Note_: The rosbag timestamp might have a gap with the GPS time as no hardware time sync was applied in the pilot data. For more details refer to this [issue](https://github.com/IPNL-POLYU/UrbanNavDataset/issues/55)
 
 For mainland china users, please download the dataset using the **Baidu Clouds Links**
 - Download by Baidu Cloud Link:
