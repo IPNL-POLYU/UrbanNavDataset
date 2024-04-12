@@ -1,6 +1,6 @@
 
 
-## Work related to urbanNav Dataset
+## Research related to urbanNav Dataset
 # 2024
   - Lee, Dongjae; Jung, Minwoo; Yang, Wooseong; Kim, Ayoung; ,LiDAR odometry survey: recent advancements and remaining challenges,Intelligent Service Robotics,24-Jan,2024,Springer
   - Bhandari, Vedant; Phillips, Tyson Govan; McAree, Peter Ross; ,Minimal configuration point cloud odometry and mapping,The International Journal of Robotics Research,2.78365E+15,2024,SAGE Publications Sage UK: London, England
