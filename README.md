@@ -1,7 +1,7 @@
 # UrbanNav
 ### An Open-Sourcing Localization Dataset Collected in Asian Urban Canyons, including Tokyo and Hong Kong
 
-This repository is the usage page of the [UrbanNav dataset](https://www.polyu-ipn-lab.com/download). Positioning and localization in deep urban canyons using low-cost sensors is still a challenging problem. The accuracy of GNSS can be severely challenged in urban canyons due to the high-rising buildings, leading to numerous Non-line-of-sight (NLOS) receptions and multipath effects. Moreover, the excessive dynamic objects can also distort the performance of LiDAR, and camera. The UrbanNav dataset wishes to provide a challenging data source to the community to further accelerate the study of accurate and robust positioning in challenging urban canyons. The dataset includes sensor measurements from GNSS receiver, LiDAR, camera and IMU, together with accurate ground truth from [SPAN-CPT](https://novatel.com/products/span-gnss-inertial-navigation-systems) system. Different from the existing dataset, such as [Waymo](https://waymo.com/open/), [KITTI](http://www.cvlibs.net/datasets/kitti/), UrbanNav provide raw GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. In this case, users can improve the performance of GNSS positioning via raw data. **In short, the UrbanNav dataset pose a special focus on improving GNSS positioning in urban canyons, but also provide sensor measurements from LiDAR, camera and IMU**. If you got any problems when using the dataset and cannot find a satisfactory solution in the issue list, please open a new issue and we will reply ASAP.
+This repository is the usage page of the UrbanNav dataset. Positioning and localization in deep urban canyons using low-cost sensors is still a challenging problem. The accuracy of GNSS can be severely challenged in urban canyons due to the high-rising buildings, leading to numerous Non-line-of-sight (NLOS) receptions and multipath effects. Moreover, the excessive dynamic objects can also distort the performance of LiDAR, and camera. The UrbanNav dataset wishes to provide a challenging data source to the community to further accelerate the study of accurate and robust positioning in challenging urban canyons. The dataset includes sensor measurements from GNSS receivers, LiDAR, camera, and IMU, together with accurate ground truth from [SPAN-CPT](https://novatel.com/products/span-gnss-inertial-navigation-systems) system. Different from the existing dataset, such as [Waymo](https://waymo.com/open/), [KITTI](http://www.cvlibs.net/datasets/kitti/), UrbanNav provide raw GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. In this case, users can improve the performance of GNSS positioning via raw data. **In short, the UrbanNav dataset poses a special focus on improving GNSS positioning in urban canyons but also provides sensor measurements from LiDAR, camera, and IMU**. If you got any problems when using the dataset and cannot find a satisfactory solution in the issue list, please open a new issue and we will reply ASAP.
 
 Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Canyons**, **GNSS Raw Data**,**Dynamic Objects**, **GNSS/INS/LiDAR/Camera**, **Ground Truth**
 
@@ -10,7 +10,7 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 </p>
 
 **Important Notes**: 
-  - **About access to GNSS RINEX file**: The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We will recently open-source a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as customized ROS message. Meanwhile, we [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provide the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO). If you wish to use the GraphGNSSLib, keep an eye on the update of this repo.
+  - **About access to GNSS RINEX file**: The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We open-sourced a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as customized ROS message. Meanwhile, [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provides the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO).
   - **Dataset contribution**: Researches who wish to contribute their dataset as part of the UrbanNav dataset, please feel free to contact us via email <darren-f.huang@connect.polyu.hk>, <welson.wen@polyu.edu.hk>, and <lt.hsu@polyu.edu.hk>. We wish the UrbanNav can be a platform for navigation solution development, validation and sharing.
   - **Algorithm validation and contribution**: Researches are welcomed to share their navigation solution results, source code to the UrbanNav dataset after a code review process, e,g, code for GNSS/INS integration or LiDAR SLAM, etc. 
 
@@ -33,7 +33,7 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 - Benchmarking positioning algorithms based on the open-sourcing data.
 
-**Contact Authors (corresponding to issues and maintenance of the currently available Hong Kong dataset)**: [Li-Ta Hsu](https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/), [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-weisong-wen/), [Feng Huang](https://www.polyu-ipn-lab.com/people), [Hoi-Fung Ng](https://www.polyu-ipn-lab.com/people), [GuoHao Zhang](https://www.polyu-ipn-lab.com/people), [Xiwei Bai](https://www.polyu-ipn-lab.com/people) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
+**Contact Authors (corresponding to issues and maintenance of the currently available Hong Kong dataset)**: [Li-Ta Hsu]([https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/](https://www.polyu.edu.hk/aae/people/academic-staff/dr-hsu-li-ta/)), [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/), Feng Huang, Hoi-Fung Ng, [GuoHao Zhang](https://www.polyu-ipn-lab.com/people), Xiwei Bai from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu.edu.hk/aae/ipn-lab/us/index.html), The Hong Kong Polytechnique University
 
 **Related Papers:** 
   - Hsu, L-T., Huang, F., Ng, H-F., Zhang, G., Zhong, Y., Bai, X., & Wen, W. (2023). Hong Kong UrbanNav: An open-source multisensory dataset for benchmarking urban navigation algorithms. NAVIGATION, 70(4). https://doi.org/10.33012/navi.602
@@ -70,8 +70,8 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 
 #### UrbanNav-HK-Medium-Urban-1
 
-Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hong Kong near [TST](https://goo.gl/maps/Sjt5WadnVEnzj6XU6)  which involves high-rising buildings, numerous dynamic objects. A updated version to UrbanNav-HK-Data20190428, two loops included. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Medium-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Medium-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Medium-Urban-1/zed2_intrinsics.yaml).
-- [Demo Video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0), [Sky-pointing Camera Video](https://www.dropbox.com/s/mol3w6hisxj8wiy/demo1_medium-Sky-pointing%20camera.mp4?dl=0)
+Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hong Kong near [TST](https://goo.gl/maps/Sjt5WadnVEnzj6XU6)  which involves high-rising buildings, numerous dynamic objects. A updated version to [UrbanNav-HK-Data20190428](https://github.com/IPNL-POLYU/UrbanNavDataset?tab=readme-ov-file#urbannav-hk-data20190428), two loops included. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Medium-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Medium-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Medium-Urban-1/zed2_intrinsics.yaml).
+- [Demo Video](https://www.dropbox.com/s/a4puf31ulksrfiu/1.tst_x5.mkv?dl=0), [Virtual Sky-pointing Camera Video](https://www.dropbox.com/s/mol3w6hisxj8wiy/demo1_medium-Sky-pointing%20camera.mp4?dl=0)
 - [ROS](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?dl=0)
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -82,11 +82,11 @@ Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hon
     - Time Reference between latest NMEA and ROS time ([sensor_msgs/TimeReference](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/TimeReference.html)): ```/time_reference```
 - [GNSS](https://www.dropbox.com/sh/2haoy68xekg95zl/AAAkcN4FwhFxkPY1lXsxbJrxa?dl=0) (RINEX v3.02)
   - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
-  - Known issue： One of the GNSS receivers (F9P) have a malfunction in a certain  period (details refer to [issue#11](https://github.com/IPNL-POLYU/UrbanNavDataset/issues/11), please use another GNSS receiver in that period instead) 
+  - Known issue： One of the GNSS receivers (F9P) has a malfunction in a certain  period (details refer to [issue#11](https://github.com/IPNL-POLYU/UrbanNavDataset/issues/11), please uses another GNSS receiver in that period instead) 
 - [IMU](https://www.dropbox.com/s/2rh1rs15ihpf63u/xsense_imu_medium_urban1.csv?dl=0), Xsens MTi 10, 400Hz; [Phone IMU](https://www.dropbox.com/s/x3l4wzug634qhrw/phone_imu_medium_urban1.csv?dl=0), Xiaomi 8, 239Hz
    - IMU data for **non-ROS users**.
 - [Ground Truth](https://www.dropbox.com/s/twsvwftucoytfpc/UrbanNav_TST_GT_raw.txt?dl=0), NovAtel SPAN-CPT + IE, 1Hz 
-##### For mainland china users, please download the dataset using the **Baidu Clouds Links**
+##### For mainland china users, please download the dataset using the **Baidu Cloud Links**
 - Download by Baidu Cloud Link: 
   - [UrbanNav-HK-Medium-Urban-1](https://pan.baidu.com/s/1My8WziJvOJymHx9r5N9AVg) (ROS)  (cg95)
 
@@ -101,7 +101,7 @@ Dataset UrbanNav-HK-Medium-Urban-1 is collected in a typical urban canyon of Hon
 
 #### UrbanNav-HK-Deep-Urban-1
 Dataset UrbanNav-HK-Deep-Urban-1 is collected in a [highly urbanized area](https://goo.gl/maps/6MNJwLhJomz6sf2q6) of Hong Kong which involves dense traffic, small tunnels and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Deep-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Deep-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Deep-Urban-1/zed2_intrinsics.yaml).
-- [Demo Video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0), [Sky-pointing Camera Video](https://www.dropbox.com/s/q2rueti4dd6i163/demo2_deep-Sky-pointing%20camera.mp4?dl=0)
+- [Demo Video](https://www.dropbox.com/s/5yi2hmigzqr0pr8/2.whampoa_x5.mkv?dl=0), [Virtual Sky-pointing Camera Video](https://www.dropbox.com/s/q2rueti4dd6i163/demo2_deep-Sky-pointing%20camera.mp4?dl=0)
 - [ROS](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?dl=0)  
   - ROSBAG file which includes:
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
@@ -128,7 +128,7 @@ Dataset UrbanNav-HK-Deep-Urban-1 is collected in a [highly urbanized area](https
 
 #### UrbanNav-HK-Harsh-Urban-1
 Dataset UrbanNav-HK-Harsh-Urban-1 is collected in an [ultra-dense urban canyon](https://goo.gl/maps/YRgizi16z6aNvhi88) of Hong Kong which involves dense vehicles, pedestrians and loops. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Harsh-Urban-1/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Harsh-Urban-1/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Harsh-Urban-1/zed2_intrinsics.yaml).
-- [Demo Video](https://www.dropbox.com/s/bayhjeu0d28nmd8/3.mongkok_x5.mp4?dl=0), [Sky-pointing Camera Video](https://www.dropbox.com/s/949m1y01gkk3q19/demo3_harsh-Sky-pointing%20camera.mp4?dl=0)
+- [Demo Video](https://www.dropbox.com/s/bayhjeu0d28nmd8/3.mongkok_x5.mp4?dl=0), [Virtual Sky-pointing Camera Video](https://www.dropbox.com/s/949m1y01gkk3q19/demo3_harsh-Sky-pointing%20camera.mp4?dl=0)
 - [ROS](https://www.dropbox.com/s/wlkzxae2aob0bnv/UrbanNav-HK_Mongkok-20210518_sensors.bag?dl=0)  
   - ROSBAG file which include (note: In this dataset, GT is provided as a file but not append into rosbag):
     - 3D LiDAR point clouds ([sensor_msgs/PointCloud2](https://docs.ros.org/en/api/sensor_msgs/html/msg/PointCloud2.html)): ```/velodyne_points```
