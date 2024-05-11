@@ -3,6 +3,10 @@
 
 This repository is the usage page of the UrbanNav dataset. Positioning and localization in deep urban canyons using low-cost sensors is still a challenging problem. The accuracy of GNSS can be severely challenged in urban canyons due to the high-rising buildings, leading to numerous Non-line-of-sight (NLOS) receptions and multipath effects. Moreover, the excessive dynamic objects can also distort the performance of LiDAR, and camera. The UrbanNav dataset wishes to provide a challenging data source to the community to further accelerate the study of accurate and robust positioning in challenging urban canyons. The dataset includes sensor measurements from GNSS receivers, LiDAR, camera, and IMU, together with accurate ground truth from [SPAN-CPT](https://novatel.com/products/span-gnss-inertial-navigation-systems) system. Different from the existing dataset, such as [Waymo](https://waymo.com/open/), [KITTI](http://www.cvlibs.net/datasets/kitti/), UrbanNav provide raw GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. In this case, users can improve the performance of GNSS positioning via raw data. **In short, the UrbanNav dataset poses a special focus on improving GNSS positioning in urban canyons but also provides sensor measurements from LiDAR, camera, and IMU**. If you got any problems when using the dataset and cannot find a satisfactory solution in the issue list, please open a new issue and we will reply ASAP.
 
+[Youtube link of the webinar talk](https://www.youtube.com/watch?v=V94PAkkpwWs).
+
+[Slide link of the webinar talk](https://github.com/IPNL-POLYU/UrbanNavDataset/blob/88b57dd213800c3618f32efdca0e7cf7c1d6cc2a/docs/Webinar%20UrbanNav%20Slide.pdf)
+
 Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Canyons**, **GNSS Raw Data**,**Dynamic Objects**, **GNSS/INS/LiDAR/Camera**, **Ground Truth**
 
 <p align="center">
