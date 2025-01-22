@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 project(lidar2image)
 
 find_package(Eigen3 REQUIRED)
-find_package(PCL 1.10 REQUIRED)
+find_package(PCL REQUIRED)
 find_package(OpenCV REQUIRED)
 
 include_directories(

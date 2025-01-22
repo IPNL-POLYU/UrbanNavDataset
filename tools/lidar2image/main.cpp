@@ -11,6 +11,7 @@ using namespace Eigen;
 
 
 int main() {
+    //camera to imu extrinsics
     Eigen::Matrix4d cam_to_imu;
     cam_to_imu.setIdentity();
     cam_to_imu.block<3,3>(0,0)<< 0.9999930,  0.0013607,  0.0034907,
@@ -19,35 +20,40 @@ int main() {
 
     cam_to_imu.block<3,1>(0,3)<<-0.1,0.11,0.11;
 
+    //imu to camera extrinsics
     Eigen::Matrix4d imu_to_cam;
     imu_to_cam.setIdentity();
     imu_to_cam.block<3,3>(0,0)=cam_to_imu.block<3,3>(0,0).transpose();
     imu_to_cam.block<3,1>(0,3)=-cam_to_imu.block<3,3>(0,0).transpose()*cam_to_imu.block<3,1>(0,3);
 
+    //lidar to imu extrinsics
     Eigen::Matrix4d lidar_to_imu;
     lidar_to_imu<<1, 0, 0, 0,
             0, 1, 0, 0,
             0, 0, 1, 0.28,
             0, 0, 0, 1;
 
+    //camera projection matrix from intrinsics
     Eigen::Matrix<double,3,4> P;
     P<<264.9425, 0.0, 334.3975, 0.0,
             0.0, 264.79, 183.162, 0.0,
             0.0, 0.0, 1.0, 0.0;
 
+    //camera width and height
     int W=672;
     int H=376;
 
-    cv::Mat image=cv::imread("3.png",cv::IMREAD_COLOR);
+    cv::Mat image=cv::imread("../data/3.png",cv::IMREAD_COLOR);
     pcl::PointCloud<pcl::PointXYZ>::Ptr mls(new pcl::PointCloud<pcl::PointXYZ>());
-    pcl::io::loadPCDFile<pcl::PointXYZ>("2.pcd", *mls);//2_pillar_car.pcd
+    pcl::io::loadPCDFile<pcl::PointXYZ>("../data/2.pcd", *mls);//2_pillar_car.pcd
 
     for (size_t i = 0; i < mls->points.size(); ++i) {
         Matrix<double,4,1> p_mls;
         p_mls<<mls->points[i].x,mls->points[i].y,mls->points[i].z,1;
 
         Vector3d p_homo=P*imu_to_cam*lidar_to_imu*p_mls;
-
+        
+        //normalization
         double px=p_homo(0)/p_homo(2);
         double py=p_homo(1)/p_homo(2);
 
@@ -71,7 +77,7 @@ int main() {
 
     cv::imshow("Image with Points", image);
 
-    cv::imwrite("proj2.png",image);
+    cv::imwrite("../proj2.png",image);
 
 
     cv::waitKey(0);
