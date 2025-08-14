@@ -32,13 +32,21 @@ def convert_novatel_to_pose(novatel,convert_body_frame):
   s_theta = math.sin(pitch);
   c_psi = math.cos(yaw);
   s_psi = math.sin(yaw);
-  # assume the SPAN IMU body and LiDAR, xsense are align well in the body frame. y-axis forward and x-axis right
-  # The origin is Identity matrix, T_original body_2_ENU, t_lidar_to_SPAN_IMU = [0,0,0.42]
-  T_body_2_ENU = np.matrix([
+
+  # The body here refers to the LiDAR frame. ENU refers to the n frame
+  # Assuming the first point is the starting point of the ENU system.
+  # the ENU frame and the SPANIMU frame are aligned at the origin, with only one attitude difference.
+  T_SPANIMU_2_ENU = np.matrix([
       [c_psi * c_phi - s_psi * s_theta * s_phi, -s_psi * c_theta, c_psi * s_phi + s_psi * s_theta * c_phi, 0],
       [s_psi * c_phi + c_psi * s_theta * s_phi, c_psi * c_theta, s_psi * s_phi - c_psi * s_theta * c_phi, 0],
-      [-c_theta * s_phi, s_theta, c_theta * c_phi, 0.42],
+      [-c_theta * s_phi, s_theta, c_theta * c_phi, 0],
       [0.0, 0.0, 0.0, 1.0]])
+
+  # T_body_to_SPANIMU: rotation is the unit matrix, translation is [0, 0, 0.42]; They are the sensors’ extrinsic parameters.
+  # T_body_2_ENU is the pose of the LiDAR frame at time 0 in the ENU frame
+  T_body_to_SPANIMU = np.eye(4)
+  T_body_to_SPANIMU[2, 3] = 0.42
+  T_body_2_ENU =  T_SPANIMU_2_ENU *  T_body_to_SPANIMU
 
   if FIRST_RUN:
     origin = [lat,lon, ele];
@@ -72,7 +80,6 @@ def convert_novatel_to_pose(novatel,convert_body_frame):
     s_psi = math.sin(yaw);
 
     # This is the T_locallevel_body transform where ENU is the local level frame
-    # and the imu is the body frame
     # https://hexagondownloads.blob.core.windows.net/public/Novatel/assets/Documents/Bulletins/apn037/apn037.pdf
 
     pose = np.matrix([
@@ -81,9 +88,11 @@ def convert_novatel_to_pose(novatel,convert_body_frame):
       [-c_theta * s_phi, s_theta, c_theta * c_phi, enu_z],
       [0.0, 0.0, 0.0, 1.0]])
     if convert_body_frame:
-      pose = np.linalg.inv(T_body_2_ENU)*pose
-      # add translation back to lidar origin
-      pose[2,3] = pose[2,3]+0.42
+      # The mathematical expression: T_SPANIMU_2_LiDAR0 = T_ENU_2_LiDAR0 * T_SPANIMU_2_ENU
+      pose = np.linalg.inv(T_body_2_ENU) * pose
+      # LiDAR0 is the first LiDAR frame at time 0; LiDAR is the moving LiDAR frame.
+      # The mathematical expression: T_LiDAR_2_LiDAR0 = T_SPANIMU_2_LiDAR0 * T_LiDAR_2_SPANIMU
+      pose = pose * T_body_to_SPANIMU
     poses.append(pose);
 
   return poses, timestamps;
