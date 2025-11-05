@@ -307,3 +307,8 @@ We acknowledge the help from Yihan Zhong, Jiachen Zhang, Yin-chiu Kan, Weichang 
 ## License
 For any technical issues, please contact Feng Huang via email <darren-f.huang@connect.polyu.hk> and [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-weisong-wen/) via email <welson.wen@polyu.edu.hk>. For collaboration inquiries, please contact [Li-Ta Hsu](https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/) via email <lt.hsu@polyu.edu.hk>.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=IPNL-POLYU/UrbanNavDataset&type=date&legend=top-left)](https://www.star-history.com/#IPNL-POLYU/UrbanNavDataset&type=date&legend=top-left)
+
+
