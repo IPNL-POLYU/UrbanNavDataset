@@ -1,25 +1,80 @@
 ## Research related to UrbanNav Dataset
 
+> Citation-record refresh: 27 Sep 2026. The 2025–2026 sections below were rebuilt from citation records of both UrbanNav source publications:
+> 1. Hsu et al., "UrbanNav: An Open-Sourced Multisensory Dataset for Benchmarking Positioning Algorithms Designed for Urban Areas," ION GNSS+ 2021, DOI: 10.33012/2021.17895.
+> 2. Hsu et al., "Hong Kong UrbanNav: An Open-Source Multisensory Dataset for Benchmarking Urban Navigation Algorithms," NAVIGATION, 2023, DOI: 10.33012/navi.602.
+> Records from both citation chains were merged and title-deduplicated. Entries are included when the citing record references either UrbanNav publication; use of the dataset itself is not required.
+
 # 2026
-  - Yang, Zhenhua; Wang, Yongqing; Shen, Yuyao; Robust GNSS Positioning via Variational Bayesian Factor Graph Optimization With Dirichlet Process Mixture Models, IEEE Transactions on Wireless Communications, 25, 20747-20764, 2026, IEEE. https://doi.org/10.1109/TWC.2026.3715460
-  - Ding, Zhenke; Deng, Zhongliang; High-Precision Vehicle Positioning Fusion Method Using 5G and GNSS in Urban Environments, IEEE Transactions on Vehicular Technology, 75(6), 9368-9379, 2026, IEEE. https://doi.org/10.1109/TVT.2025.3646725
-  - Liu, Minzhe; Zhang, Hongjuan; Zhao, Zhibo; Hong, Chengzhi; Wang, Haoyu; Xiao, Zilong; Li, Bijun; Robust Urban SLAM via Resilient GNSS-IMU-LiDAR-Camera-Loop Fusion, ISPRS Journal of Photogrammetry and Remote Sensing, 238, 794-815, 2026, Elsevier. https://doi.org/10.1016/j.isprsjprs.2026.05.035
-  - Wang, Haotian; Tao, Xianlu; Pan, Shuguo; Zhang, Xiaoguo; Gao, Wang; Wang, Qiang; Robust NLOS Compensation Method Using FGO-WCMC for GNSS Urban Positioning, Measurement, 280, 121826, 2026, Elsevier. https://doi.org/10.1016/j.measurement.2026.121826
-  - Cioaca, Radu-Andrei; Rusu, Cristian; Irofti, Paul; Caparra, Gianluca; Marinache, Andrei-Alexandru; Stoican, Florin; Real-time Loosely Coupled GNSS and IMU Integration via Factor Graph Optimization, 24th European Control Conference (ECC), 2982-2987, 2026. https://arxiv.org/abs/2603.03546
-  - Cioaca, Radu-Andrei; Irofti, Paul; Rusu, Cristian; Caparra, Gianluca; Marinache, Andrei-Alexandru; Stoican, Florin; Real-time Tightly Coupled GNSS and IMU Integration via Factor Graph Optimization, 2026 12th Workshop on Satellite Navigation Technology (NAVITEC), 1-6, 2026. https://doi.org/10.48550/arXiv.2603.03556
+  - Baldini, Gianmarco; Bonavitacola, Fausto; Adaptive Ensemble Clustering Using Meta-Heuristics-Algorithms for Global Navigation Satellite System (GNSS) Line of Sight (LOS)/Non Line of Sight (NLOS) Classification, 2026.
+  - Olama, Alireza; Välisuo, Petri; Ahmadi, Elham; Kuusniemi, Heidi; Adaptive Factor Graph-Based Tightly Coupled GNSS/IMU Fusion for Robust Positioning, preprint, 2026.
+  - Jiang, Yingying; Zhu, Ni; Renaudin, Valérie; Sequential Fault Detection and Exclusion Method Using Normalized Deleted Residual Matrix for Tightly Coupled GNSS/INS System, IEEE Transactions on Vehicular Technology, 2026.
+  - Zou, Kun; Gao, Tongyue; Ren, Tianxiang; Liu, Diao; Robust Dynamic Point Filtering for LiDAR-IMU Odometry via Geometric Consistency and Voxel Voting, Journal of Physics: Conference Series, 2026.
+  - Li, Jinkun; Xiu, Chundi; Zhang, Luxiao; Yang, Dongkai; LIO-DOR: A Novel LiDAR/Inertial Odometry System with Real-Time Dynamic Object Removal, Measurement Science and Technology, 2026.
+  - Chen, Guang'E; Li, Bofeng; He, Linkun; Precise LiDAR-Only Odometry with Error Rectification in Structured Environments, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2026.
+  - Levenhar, Mor; Klein, Itzik; Dual-Branch INS/GNSS Fusion with Inequality and Equality Constraints, preprint, 2026.
+  - Souza, Vinicius; Gaspar, José António; Fernandes, João Filipe Pereira; Bernardino, Alexandre; Localization for Car-Like Vehicles Using Loosely Coupled Dual-GNSS Integration, 2026.
+  - Qiao, Meiying; Qiu, Yunqiang; Li, Ang; Lan, Yuqi; A 3D Velocity Constraint Method During GNSS Outages for GNSS/INS Integrated Navigation Based on Motion State Classification, Measurement Science and Technology, 2026.
+  - Lin, Xiuwei; Wu, Chao; Wu, Jun; Xie, Jian; A BiLSTM-Based Multiscale Convolutional Attention Method for Pseudorange Compensation in GNSS/INS Tightly Coupled Integration, 2026.
+  - Liu, Minzhe; Zhang, Hongjuan; Zhao, Zhibo; Hong, Chengzhi; Wang, Haoyu; Xiao, Zilong; Li, Bijun; Robust Urban SLAM via Resilient GNSS-IMU-LiDAR-Camera-Loop Fusion, ISPRS Journal of Photogrammetry and Remote Sensing, 238, 794-815, 2026. https://doi.org/10.1016/j.isprsjprs.2026.05.035
+  - Li, Xingxing; Chen, Siqi; Xia, Chunxi; Li, Shengyu; GREAT Dataset: A Multi-Sensor Raw Observation Dataset for High-Precision Urban Navigation, IEEE Transactions on Automation Science and Engineering, 2026.
+  - Kong, Lingji; Huang, Zifeng; Yin, Lu; Zhu, Boyu; Robust Two-Stage Filtering Method for Low-Cost Tightly Coupled GNSS/INS Integration Positioning System, conference paper, 2026.
+  - Yao, Qi; Yang, Jingjing; Wang, Shunfang; Huang, Ming; Few-Sample GNSS Signal LOS/NLOS Identification via Physical-Semantic Distillation From Large Language Models, IEEE Signal Processing Letters, 2026.
+  - Guo, Wenzhuo; Li, Linyang; Wang, Li; Zhao, Dongqing; Improving GNSS/IMU/LiDAR Fusion Positioning Performance Using Adaptive LiDAR Keyframe Selection and Refined IMU Pre-Integration, Measurement Science and Technology, 2026.
+  - Qian, Liang; Yan, Penggao; Xu, Penghui; Hsu, Li-Ta; CredibleDFGO: Differentiable Factor Graph Optimization with Credibility Supervision, preprint, 2026.
+  - Wang, Fengsen; Zhang, Jin; Deng, Liangcheng; Improving Doppler-Based Velocity Determination in Urban Environments Through Random Forest-Based NLOS Signal Detection, conference paper, 2026.
+  - Wang, Chengmin; Zhuang, Yan; Yan, Fei; Zhang, Xuetao; ROAF: Real-Time LiDAR-Inertial Odometry Without Timestamp Casting Error Propagation for a UAV's Autonomous Flight, IEEE Transactions on Instrumentation and Measurement, 2026.
+  - Chen, Weijie; Zhu, Feng; Cai, Qingqing; Zhang, Xiaohong; A Self-Supervised Hierarchical Contrastive Spatio-Temporal Representation Learning Framework for Urban Environment Context Detection, Knowledge-Based Systems, 2026.
+  - Luo, Xiaorong; Sun, Yuan; Fu, Li; ATM: Adaptive Temporal Kalman Filter-Based Solution Separation Method for Positioning and Integrity Monitoring, IEEE Transactions on Instrumentation and Measurement, 2026.
+  - Zhang, Junjie; Radanović, Marko; Zhao, Yuan; Khoshelham, Kourosh; Melbourne Multi-Sensor Urban Positioning and Mapping Dataset, 2026.
+  - Luo, Yarong; Guo, Chi; Lu, Wentao; Huang, Yulong; SINS/GNSS Integrated Navigation Based on Left Equivariant Error Model in Inertial Frame, IEEE Transactions on Intelligent Transportation Systems, 2026.
+  - Lee, Pin-Hsun; Leib, H.; A Machine Learning Framework for Weighted Least Squares GNSS Positioning Based on Activation Functions, preprint, 2026.
+  - Yang, Yandi; Li, Jianping; Liao, Martin; El-Sheimy, Naser; AGI2P: Benchmarking Aerial-Ground Image-to-Point Cloud Localization with a Large-Scale Dataset, ISPRS Journal of Photogrammetry and Remote Sensing, 2026.
+  - Song, Baoshan; Xia, Xiao; Yan, Penggao; Hsu, Li-Ta; Online IMU-Odometer Calibration Using GNSS Measurements for Autonomous Ground Vehicle Localization, IEEE Transactions on Intelligent Transportation Systems, 2026.
+  - Versano, Gal; Klein, Itzik; A Hybrid Neural-Assisted Unscented Kalman Filter for Unmanned Ground Vehicle Navigation, preprint, 2026.
+  - Cioaca, Radu-Andrei; Rusu, Cristian; Irofti, Paul; Stoican, Florin; Real-Time Loosely Coupled GNSS and IMU Integration via Factor Graph Optimization, 2026.
+  - Emam, Ahmed; Elkhalea, Mohamed Fathi; Maher, Ali; Kamel, Ahmed; Performance Evaluation of GNSS/INS Integration Using FGO in Urban Environments, conference paper, 2026.
+  - Jingxiaotao, Fang; Xu, Bing; A Doppler Frequency Metric for GNSS Spoofing Detection in Urban Environments, 2026.
+  - Versano, Gal; Klein, Itzik; Wheel-Mounted/GNSS Fusion with AI-Aided Position Updates, preprint, 2026.
+  - Yang, Zhenhua; Wang, Yongqing; Shen, Yuyao; Robust GNSS Positioning via Variational Bayesian Factor Graph Optimization With Dirichlet Process Mixture Models, IEEE Transactions on Wireless Communications, 2026. https://doi.org/10.1109/TWC.2026.3715460
+  - Ding, Zhenke; Deng, Zhongliang; High-Precision Vehicle Positioning Fusion Method Using 5G and GNSS in Urban Environments, IEEE Transactions on Vehicular Technology, 2026. https://doi.org/10.1109/TVT.2025.3646725
+  - Wang, Haotian; Tao, Xianlu; Pan, Shuguo; Zhang, Xiaoguo; Gao, Wang; Wang, Qiang; Robust NLOS Compensation Method Using FGO-WCMC for GNSS Urban Positioning, Measurement, 2026. https://doi.org/10.1016/j.measurement.2026.121826
 
 # 2025
-  - Liu, Xikun; Wen, Weisong; Huang, Feng; Gao, Han; Wang, Y.; Hsu, Li-Ta; 3-D LiDAR-Aided GNSS NLOS Mitigation for Reliable GNSS-RTK Positioning in Urban Canyons, IEEE Transactions on Instrumentation and Measurement, 74, 1-15, Art. no. 9544915, 2025, IEEE. https://doi.org/10.1109/TIM.2025.3629836
-  - Yu, G.; Zou, Y.; Lei, F.; Yan, D.; Xiong, F.; A Fast LiDAR Place Recognition Descriptor Based on Density Classification and Multi-Modal Fusion Place Recognition Strategy, IEEE Robotics and Automation Letters, 10(11), 11126-11133, 2025, IEEE. https://doi.org/10.1109/LRA.2025.3608641
-  - Ahmadi, Elham; Elsanhoury, Mahmoud; Selvan, Kannan; Välisuo, Petri; Kuusniemi, Heidi; Robust Multi-Sensor Fusion Positioning Based on GNSS/IMU Using Factor Graph Optimization, 2025 IEEE/ION Position, Location and Navigation Symposium (PLANS), 1247-1256, 2025, IEEE/ION. https://doi.org/10.1109/PLANS61210.2025.11028340
-  - Titouni, Salem; Messaoudene, Idris; Himeur, Yassine; Dawoud, Diana Wasfi; et al.; Enhancing GNSS Localization in Urban Canyons With a Hybrid CNN-Autoencoder Approach to LOS/NLOS Classification, IEEE Access, 13, 164426-164441, 2025, IEEE. https://doi.org/10.1109/ACCESS.2025.3611517
-  - Lu, Shengyu; Bao, Sheng; Shi, Wenzhong; Wei, Yitao; Zhang, Shuyu; Yang, Daping; Multimodal Sensor Dataset from Vehicle-Mounted Mobile Mapping System for Comprehensive Urban Scenes, Scientific Data, 12, 1411, 2025, Springer Nature. https://doi.org/10.1038/s41597-025-05471-1
-  - Zhang, Qi; Xu, Bing; Analysis of Multipath Effects on LEO Ranging-Based Positioning Using BPSK and BOC Signals in Urban Areas, Advances in Space Research, 75(3), 3298-3309, 2025, Elsevier. https://doi.org/10.1016/j.asr.2024.11.049
-  - Yue, Zhe; Ma, Wenzhuo; Gao, Yuting; Sun, Chenchen; Zhang, Mengshuo; Lian, Zengzeng; Li, Kezhao; Vehicle-mounted GNSS Navigation and Positioning Algorithm Considering Signal Obstruction and Fuzzy Logic in Urban Environment, Measurement, 248, 116919, 2025, Elsevier.
-  - Zhai, Weiwei; Cui, Yongchuan; Wang, Liang; Wang, Ningbo; et al.; Enhancing GNSS Positioning in Urban Environments: A Transformer-Based NLOS Detection and Adaptive Weighting Approach, IEEE Internet of Things Journal, 12(20), 43521-43539, 2025, IEEE. https://doi.org/10.1109/JIOT.2025.3597409
-  - Liu, Guoliang; Gao, Wang; Pan, Shuguo; Analysis of Factors Affecting Random Measurement Error in LiDAR Point Cloud Feature Matching Positioning, Remote Sensing, 17(8), 1457, 2025, MDPI. https://doi.org/10.3390/rs17081457
-  - Wei, Chun; Li, Tianjing; Hu, Xuemin; Energy-Conscious Lightweight LiDAR SLAM with 2D Range Projection and Multi-Stage Outlier Filtering for Intelligent Driving, Computation, 13(10), 239, 2025, MDPI. https://doi.org/10.3390/computation13100239
-  - GS-GVINS: A Tightly-Integrated GNSS-Visual-Inertial Navigation System Augmented by 3D Gaussian Splatting, IEEE Access, 13, 125817-125829, 2025, IEEE. https://doi.org/10.1109/ACCESS.2025.3589161
+  - Qin, Qijun; Zhang, Ziqi; Zhong, Yihan; Huang, Feng; Liu, Xikun; Hu, Runzhi; Chen, Hang; Hu, Wei; Su, Dongzhe; Zhang, Jun; Ng, Hoi-Fung; Wen, Weisong; UrbanV2X: A Multisensory Vehicle-Infrastructure Dataset for Cooperative Navigation in Urban Areas, 2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC), 815-822, 2025. https://doi.org/10.1109/ITSC60802.2025.11423762
+  - Nie, Shichuang; Yang, Hongzhou; Attention-GANs: An Advanced GNSS Data Augmentation Method for Improved NLOS/LOS Classification, 2025.
+  - Jin, Xiaofeng; Bu, Ningbo; Wang, Shijie; Matteucci, Matteo; Large-Scale LiDAR-Inertial Dataset for Degradation-Robust High-Precision Mapping, preprint, 2025.
+  - Jiang, Yingying; Zhu, Ni; Renaudin, Valérie; GNSS Fault Rejection Using Robust Kalman Filter with Integrity Indicator-Constrained Innovation Adaptive Adjustment, conference paper, 2025.
+  - Liu, Xikun; Huang, Feng; Wen, Weisong; Hsu, Li-Ta; 3-D LiDAR-Aided GNSS NLOS Mitigation for Reliable GNSS-RTK Positioning in Urban Canyons, IEEE Transactions on Instrumentation and Measurement, 2025. https://doi.org/10.1109/TIM.2025.3629836
+  - Chen, Zhiqiang; Le Gentil, Cedric; Lin, Fuling; Lu, Peng; Breaking the Static Assumption: A Dynamic-Aware LIO Framework via Spatio-Temporal Normal Analysis, 2025.
+  - Liu, Zongwei; Xiang, Yan; Gu, Mingxiang; Pei, Ling; Performance of GNSS SPP/PPP/RTK with Mitigation on NLOS Signals in Proximity to Building Edges, Advances in Space Research, 2025.
+  - Cheng, Jintao; Xue, Bohuan; Chen, Shiyang; Tang, Xiaoyu; Incorporating GNSS Information with LIDAR-Inertial Odometry for Accurate Land-Vehicle Localization, conference paper, 2025.
+  - Yu, Guoliang; Zou, Yanli; Lei, Fan; Xiong, Fuxin; A Fast LiDAR Place Recognition Descriptor Based on Density Classification and Multi-Modal Fusion Place Recognition Strategy, IEEE Robotics and Automation Letters, 2025. https://doi.org/10.1109/LRA.2025.3608641
+  - Ma, Chun; Pan, Shuguo; Gao, Wang; Liu, Liwei; An Improved Multiple-Outlier-Robust Kalman Filter for GNSS/INS Tightly Coupled Positioning in Urban Canyons, 2025.
+  - Liu, Xikun; Zhang, Liyuan; Hsu, Li-Ta; Wen, Weisong; 3D LiDAR Aided GNSS NLOS Correction by Direction-of-Arrival Estimation Using Doppler Measurements in Urban Canyons, IEEE Transactions on Intelligent Transportation Systems, 2025.
+  - Lu, Shengyu; Bao, Sheng; Shi, Wenzhong; Wei, Yitao; Zhang, Shuyu; Yang, Daping; Multimodal Sensor Dataset from Vehicle-Mounted Mobile Mapping System for Comprehensive Urban Scenes, Scientific Data, 12, 1411, 2025. https://doi.org/10.1038/s41597-025-05471-1
+  - Gao, Guanhong; Xiong, Zhi; Wang, Jingqi; Xu, Jie; Robust Trajectory Cross-Verification Integration for VINS-GNSS System Under GNSS Degeneration, 2025.
+  - He, Linkun; Li, Bofeng; Lightweight and Azimuth-Constrained Road Curb Detection Using a 3D LiDAR Sensor, Journal of Applied Remote Sensing, 2025.
+  - Li, Weiyi; Yang, Xusheng; Tian, Shaohua; Zhang, Wen-An; Progressive Gaussian Filtering With Classification for Nonlinear Systems With Composite Noise, IEEE Sensors Journal, 2025.
+  - Gu, Mingxiang; Liu, Guoqing; Li, Tao; Pei, Ling; SVA: A Street-View-Aided GNSS Positioning Framework With 2DSDM and Likelihood Road for NLOS/Multipath Mitigation, 2025.
+  - Ahmadi, Elham; Elsanhoury, Mahmoud; Selvan, Kannan; Kuusniemi, Heidi; Robust Multi-Sensor Fusion Positioning Based on GNSS/IMU Using Factor Graph Optimization, IEEE/ION PLANS, 2025. https://doi.org/10.1109/PLANS61210.2025.11028340
+  - Suzuki, Taro; Open-Source Factor Graph Optimization Package for GNSS: Examples and Applications, conference paper, 2025.
+  - Wang, Rongtian; Zhang, Yuqi; Li, Tao; Zhang, Wen-An; RTK-LIO: Tightly Coupled RTK/LiDAR/Inertial Navigation System Based on Optimization Approach, IEEE Sensors Journal, 2025.
+  - Yang, Zhenhua; Wang, Yongqing; Shen, Yuyao; Receiver Clock Prediction-Aided GNSS Positioning Using Factor Graph Optimization With at Least Three Satellites Visible, IEEE Transactions on Vehicular Technology, 2025.
+  - Hu, Runzhi; Xu, Penghui; Zhong, Yihan; Wen, Weisong; pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons, IEEE Transactions on Intelligent Transportation Systems, 2025.
+  - Hui, Feng; Zhou, Zhiyu; Liu, Yu; PL-LVI: A LiDAR-Visual-Inertial SLAM System Integrating Visual Point-Line Features, IEEE Transactions on Automation Science and Engineering, 2025.
+  - Wu, Qi; Chen, Xieyuanli; Xu, Xiangyu; Pei, Ling; UA-LIO: An Uncertainty-Aware LiDAR-Inertial Odometry for Autonomous Driving in Urban Environments, IEEE Transactions on Instrumentation and Measurement, 2025.
+  - Titouni, Salem; Messaoudene, Idris; Himeur, Yassine; Mansoor, Wathiq; Enhancing GNSS Localization in Urban Canyons With a Hybrid CNN-Autoencoder Approach to LOS/NLOS Classification, IEEE Access, 2025. https://doi.org/10.1109/ACCESS.2025.3611517
+  - Wei, Chun; Li, Tianjing; Hu, Xuemin; Energy-Conscious Lightweight LiDAR SLAM with 2D Range Projection and Multi-Stage Outlier Filtering for Intelligent Driving, Computation, 2025. https://doi.org/10.3390/computation13100239
+  - Ge, Jianfei; Jin, Xiaofeng; Bu, Ningbo; Matteucci, Matteo; Toward Degradation-Robust High-Precision Mapping: A Large-Scale LiDAR-Inertial Dataset, 2025.
+  - Yuan, Zikang; Wang, Xiaoxiang; Wu, Jingying; Yang, Xin; LiDAR-Inertial Odometry in Dynamic Driving Scenarios Using Label Consistency Detection, conference paper, 2025.
+  - Yang, Yandi; Li, Jianping; Liao, Martin; El-Sheimy, Naser; Aerial-Ground Cross-Modal Localization: Dataset, Ground-Truth, and Benchmark, preprint, 2025.
+  - Tashtay, Yerlan; Smailov, Nurzhigit; Naubetov, Daulet; Batyrgaliyev, Askhat; Fiber-Optic Gyroscopes: Architectures, Signal Processing, Error Compensation, and Emerging Trends, 2025.
+  - Ruan, Jianyuan; Zhang, Dan; HK-MEMS, a Multi-Sensor Data Set With MEMS LiDAR on Degenerate and Dynamic Urban Scenarios, Journal of Field Robotics, 2025.
+  - Zhang, Qi; Xu, Bing; Analysis of Multipath Effects on LEO Ranging-Based Positioning Using BPSK and BOC Signals in Urban Areas, Advances in Space Research, 2025. https://doi.org/10.1016/j.asr.2024.11.049
+  - Zhai, Weiwei; Cui, Yongchuan; Wang, Liang; Wang, Ningbo; et al.; Enhancing GNSS Positioning in Urban Environments: A Transformer-Based NLOS Detection and Adaptive Weighting Approach, IEEE Internet of Things Journal, 2025. https://doi.org/10.1109/JIOT.2025.3597409
+  - Liu, Guoliang; Gao, Wang; Pan, Shuguo; Analysis of Factors Affecting Random Measurement Error in LiDAR Point Cloud Feature Matching Positioning, Remote Sensing, 2025. https://doi.org/10.3390/rs17081457
+  - GS-GVINS: A Tightly-Integrated GNSS-Visual-Inertial Navigation System Augmented by 3D Gaussian Splatting, IEEE Access, 2025. https://doi.org/10.1109/ACCESS.2025.3589161
 
 # 2024
   - Lee, Dongjae; Jung, Minwoo; Yang, Wooseong; Kim, Ayoung;LiDAR odometry survey: recent advancements and remaining challenges,Intelligent Service Robotics,24-Jan,2024,Springer
