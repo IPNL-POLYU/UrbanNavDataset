@@ -1,10 +1,5 @@
 ## Research related to UrbanNav Dataset
 
-> Citation-record refresh: 27 Sep 2026. The 2025–2026 sections below were rebuilt from citation records of both UrbanNav source publications:
-> 1. Hsu et al., "UrbanNav: An Open-Sourced Multisensory Dataset for Benchmarking Positioning Algorithms Designed for Urban Areas," ION GNSS+ 2021, DOI: 10.33012/2021.17895.
-> 2. Hsu et al., "Hong Kong UrbanNav: An Open-Source Multisensory Dataset for Benchmarking Urban Navigation Algorithms," NAVIGATION, 2023, DOI: 10.33012/navi.602.
-> Records from both citation chains were merged and title-deduplicated. Entries are included when the citing record references either UrbanNav publication; use of the dataset itself is not required.
-
 # 2026
   - Baldini, Gianmarco; Bonavitacola, Fausto; Adaptive Ensemble Clustering Using Meta-Heuristics-Algorithms for Global Navigation Satellite System (GNSS) Line of Sight (LOS)/Non Line of Sight (NLOS) Classification, 2026.
   - Olama, Alireza; Välisuo, Petri; Ahmadi, Elham; Kuusniemi, Heidi; Adaptive Factor Graph-Based Tightly Coupled GNSS/IMU Fusion for Robust Positioning, preprint, 2026.
