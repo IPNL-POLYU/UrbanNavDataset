@@ -4,6 +4,9 @@
   - Yang, Zhenhua; Wang, Yongqing; Shen, Yuyao; Robust GNSS Positioning via Variational Bayesian Factor Graph Optimization With Dirichlet Process Mixture Models, IEEE Transactions on Wireless Communications, 25, 20747-20764, 2026, IEEE. https://doi.org/10.1109/TWC.2026.3715460
   - Ding, Zhenke; Deng, Zhongliang; High-Precision Vehicle Positioning Fusion Method Using 5G and GNSS in Urban Environments, IEEE Transactions on Vehicular Technology, 75(6), 9368-9379, 2026, IEEE. https://doi.org/10.1109/TVT.2025.3646725
   - Liu, Minzhe; Zhang, Hongjuan; Zhao, Zhibo; Hong, Chengzhi; Wang, Haoyu; Xiao, Zilong; Li, Bijun; Robust Urban SLAM via Resilient GNSS-IMU-LiDAR-Camera-Loop Fusion, ISPRS Journal of Photogrammetry and Remote Sensing, 238, 794-815, 2026, Elsevier. https://doi.org/10.1016/j.isprsjprs.2026.05.035
+  - Wang, Haotian; Tao, Xianlu; Pan, Shuguo; Zhang, Xiaoguo; Gao, Wang; Wang, Qiang; Robust NLOS Compensation Method Using FGO-WCMC for GNSS Urban Positioning, Measurement, 280, 121826, 2026, Elsevier. https://doi.org/10.1016/j.measurement.2026.121826
+  - Cioaca, Radu-Andrei; Rusu, Cristian; Irofti, Paul; Caparra, Gianluca; Marinache, Andrei-Alexandru; Stoican, Florin; Real-time Loosely Coupled GNSS and IMU Integration via Factor Graph Optimization, 24th European Control Conference (ECC), 2982-2987, 2026. https://arxiv.org/abs/2603.03546
+  - Cioaca, Radu-Andrei; Irofti, Paul; Rusu, Cristian; Caparra, Gianluca; Marinache, Andrei-Alexandru; Stoican, Florin; Real-time Tightly Coupled GNSS and IMU Integration via Factor Graph Optimization, 2026 12th Workshop on Satellite Navigation Technology (NAVITEC), 1-6, 2026. https://doi.org/10.48550/arXiv.2603.03556
 
 # 2025
   - Liu, Xikun; Wen, Weisong; Huang, Feng; Gao, Han; Wang, Y.; Hsu, Li-Ta; 3-D LiDAR-Aided GNSS NLOS Mitigation for Reliable GNSS-RTK Positioning in Urban Canyons, IEEE Transactions on Instrumentation and Measurement, 74, 1-15, Art. no. 9544915, 2025, IEEE. https://doi.org/10.1109/TIM.2025.3629836
@@ -12,6 +15,11 @@
   - Titouni, Salem; Messaoudene, Idris; Himeur, Yassine; Dawoud, Diana Wasfi; et al.; Enhancing GNSS Localization in Urban Canyons With a Hybrid CNN-Autoencoder Approach to LOS/NLOS Classification, IEEE Access, 13, 164426-164441, 2025, IEEE. https://doi.org/10.1109/ACCESS.2025.3611517
   - Lu, Shengyu; Bao, Sheng; Shi, Wenzhong; Wei, Yitao; Zhang, Shuyu; Yang, Daping; Multimodal Sensor Dataset from Vehicle-Mounted Mobile Mapping System for Comprehensive Urban Scenes, Scientific Data, 12, 1411, 2025, Springer Nature. https://doi.org/10.1038/s41597-025-05471-1
   - Zhang, Qi; Xu, Bing; Analysis of Multipath Effects on LEO Ranging-Based Positioning Using BPSK and BOC Signals in Urban Areas, Advances in Space Research, 75(3), 3298-3309, 2025, Elsevier. https://doi.org/10.1016/j.asr.2024.11.049
+  - Yue, Zhe; Ma, Wenzhuo; Gao, Yuting; Sun, Chenchen; Zhang, Mengshuo; Lian, Zengzeng; Li, Kezhao; Vehicle-mounted GNSS Navigation and Positioning Algorithm Considering Signal Obstruction and Fuzzy Logic in Urban Environment, Measurement, 248, 116919, 2025, Elsevier.
+  - Zhai, Weiwei; Cui, Yongchuan; Wang, Liang; Wang, Ningbo; et al.; Enhancing GNSS Positioning in Urban Environments: A Transformer-Based NLOS Detection and Adaptive Weighting Approach, IEEE Internet of Things Journal, 12(20), 43521-43539, 2025, IEEE. https://doi.org/10.1109/JIOT.2025.3597409
+  - Liu, Guoliang; Gao, Wang; Pan, Shuguo; Analysis of Factors Affecting Random Measurement Error in LiDAR Point Cloud Feature Matching Positioning, Remote Sensing, 17(8), 1457, 2025, MDPI. https://doi.org/10.3390/rs17081457
+  - Wei, Chun; Li, Tianjing; Hu, Xuemin; Energy-Conscious Lightweight LiDAR SLAM with 2D Range Projection and Multi-Stage Outlier Filtering for Intelligent Driving, Computation, 13(10), 239, 2025, MDPI. https://doi.org/10.3390/computation13100239
+  - GS-GVINS: A Tightly-Integrated GNSS-Visual-Inertial Navigation System Augmented by 3D Gaussian Splatting, IEEE Access, 13, 125817-125829, 2025, IEEE. https://doi.org/10.1109/ACCESS.2025.3589161
 
 # 2024
   - Lee, Dongjae; Jung, Minwoo; Yang, Wooseong; Kim, Ayoung;LiDAR odometry survey: recent advancements and remaining challenges,Intelligent Service Robotics,24-Jan,2024,Springer
