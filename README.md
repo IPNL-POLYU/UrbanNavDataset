@@ -305,6 +305,12 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
 We acknowledge the help from Yihan Zhong, Jiachen Zhang, Yin-chiu Kan, Weichang Xu and Song Yang.
 
 ## License
+The UrbanNav dataset and the code and documentation in this repository are released under the [MIT License](LICENSE). This includes the dataset files provided through the download links in this README, such as ROS bags, GNSS RINEX files, IMU measurements, and ground-truth files. For the purposes of the license, the term "Software" includes these dataset files.
+
+Use, modification, and redistribution are permitted for research and commercial purposes under the MIT License. When redistributing copies or substantial portions of the licensed materials, include the copyright and permission notices in [LICENSE](LICENSE). Third-party software and resources linked from this repository remain subject to their respective licenses.
+
+You may publish aggregate results derived from the dataset without redistributing the data. If you use UrbanNav in a publication, we appreciate a citation to the relevant papers listed above; citation is a scholarly request, not an additional license condition.
+
 For any technical issues, please contact Feng Huang via email <darren-f.huang@connect.polyu.hk> and [Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-weisong-wen/) via email <welson.wen@polyu.edu.hk>. For collaboration inquiries, please contact [Li-Ta Hsu](https://www.polyu.edu.hk/aae/people/academic-staff/dr-lt-hsu/) via email <lt.hsu@polyu.edu.hk>.
 
 ## Star History
